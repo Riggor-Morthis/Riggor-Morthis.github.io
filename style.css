@@ -10,7 +10,7 @@
 
 @font-face{
     font-family: linkFont;
-    src: url(/fonts/quantrh.ttf);
+    src: url(/fonts/quantrnd.ttf);
 }
 
 body {
@@ -43,14 +43,14 @@ body {
 
 .cellTitle{
     text-align: left;
-    margin-left: 10%;
+    margin-left: 5%;
     color :rgb(15, 2, 0);
     font-size: 1.5em;
     font-family: titleFont;
 }
 
 .cellText{
-    text-align: left;
+    text-align: justify;
     color :rgb(15, 2, 0);
     font-size: 1em;
     font-family: parFont;
@@ -60,6 +60,6 @@ body {
     text-align: left;
     margin-left: 10%;
     color :rgb(29, 5, 2);
-    font-size: .8em;
+    font-size: .7em;
     font-family: linkFont;
 }
