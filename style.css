@@ -8,6 +8,11 @@
     src: url(/fonts/NEUROPOL.ttf);
 }
 
+@font-face{
+    font-family: linkFont;
+    src: url(/fonts/quantrh.ttf);
+}
+
 body {
     background: rgb(255, 255, 255);
     background: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(247, 243, 232, 1) 100%);
@@ -21,6 +26,7 @@ body {
     margin-left: 33%;
     color :rgb(15, 2, 0);
     font-size: 3em;
+    font-family: titleFont;
 }
 
 .projectTable{
@@ -29,8 +35,31 @@ body {
     margin-top: 2%;
 }
 
-.projectColumn{
+.projectCell{
     width: 1%;
     border : 2px solid black;
     border-style: none;
+}
+
+.cellTitle{
+    text-align: left;
+    margin-left: 10%;
+    color :rgb(15, 2, 0);
+    font-size: 1.5em;
+    font-family: titleFont;
+}
+
+.cellText{
+    text-align: left;
+    color :rgb(15, 2, 0);
+    font-size: 1em;
+    font-family: parFont;
+}
+
+.cellLink{
+    text-align: left;
+    margin-left: 10%;
+    color :rgb(29, 5, 2);
+    font-size: .8em;
+    font-family: linkFont;
 }
