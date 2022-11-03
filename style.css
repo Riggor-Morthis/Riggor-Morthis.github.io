@@ -15,10 +15,22 @@ body {
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(247, 243, 232, 1) 100%);
 }
 
-h1{
-    font-family: titleFont;
+.pageTitle{
+    text-align: left;
+    margin-top: 2.5%;
+    margin-left: 33%;
+    color :rgb(15, 2, 0);
+    font-size: 3em;
 }
 
-p{
-    font-family: parFont;
+.projectTable{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.projectColumn{
+    width: 1%;
+    border : 2px solid black;
+    border-style: none;
 }
