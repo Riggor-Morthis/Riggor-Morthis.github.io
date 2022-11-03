@@ -1,6 +1,11 @@
 @font-face {
+    font-family: titleFont;
+    src: url(/fonts/nulshock\ bd.ttf);
+}
+
+@font-face {
     font-family: parFont;
-    src: url(NEUROPOL.ttf);
+    src: url(/fonts/NEUROPOL.ttf);
 }
 
 body {
@@ -8,6 +13,10 @@ body {
     background: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(247, 243, 232, 1) 100%);
     background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(247, 243, 232, 1) 100%);
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(247, 243, 232, 1) 100%);
+}
+
+h1{
+    font-family: titleFont;
 }
 
 p{
