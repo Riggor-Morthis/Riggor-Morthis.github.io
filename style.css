@@ -1,0 +1,25 @@
+@font-face {
+    font-family: titleFont;
+    src: url(fonts\NEUROPOL.ttf);
+}
+
+@font-face {
+    font-family: parFont;
+    src: url(fonts\NEUROPOL.ttf);
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(237, 236, 211, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(237, 236, 211, 1) 100%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(237, 236, 211, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#edecd3", GradientType=1);
+}
+
+h1{
+    font-family: titleFont;
+}
+
+p{
+    font-family: parFont;
+}
