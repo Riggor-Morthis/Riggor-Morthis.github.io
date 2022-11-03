@@ -37,8 +37,7 @@ body {
 
 .projectCell{
     width: 1%;
-    border : 2px solid black;
-    border-style: none;
+    padding: 1%;
 }
 
 .cellTitle{
