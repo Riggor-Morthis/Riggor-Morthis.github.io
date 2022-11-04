@@ -22,10 +22,10 @@ body {
 
 .pageTitle{
     text-align: left;
-    margin-top: 2.5%;
+    margin-top: 2%;
     margin-left: 33%;
     color :rgb(15, 2, 0);
-    font-size: 3em;
+    font-size: 5em;
     font-family: titleFont;
 }
 
@@ -74,4 +74,22 @@ body {
 .previewGif{
     max-width: 100%;
     text-align: center;
+}
+
+.row{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
 }
