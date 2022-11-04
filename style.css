@@ -44,7 +44,7 @@ body {
 
 .column{
     float: left;
-    width: 33.33%;
+    width: 31.33%;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -77,7 +77,7 @@ body {
     font-family: parFont;
 }
 
-.priviewLink{
+.previewLink{
     text-align: center;
     margin-left: 10%;
     color :rgb(29, 5, 2);
