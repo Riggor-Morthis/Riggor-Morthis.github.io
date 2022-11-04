@@ -1,16 +1,16 @@
 @font-face {
     font-family: titleFont;
-    src: url(/fonts/nulshock\ bd.ttf);
+    src: url(/fonts/AnkhSanctuary-nROx4.ttf);
 }
 
 @font-face {
     font-family: parFont;
-    src: url(/fonts/NEUROPOL.ttf);
+    src: url(/fonts/TheRiftShop-Yzde4.ttf);
 }
 
 @font-face{
     font-family: linkFont;
-    src: url(/fonts/quantrnd.ttf);
+    src: url(/fonts/Revamped-X3q1a.ttf);
 }
 
 body {
@@ -45,7 +45,7 @@ body {
     margin-left: 5%;
     color :rgb(15, 2, 0);
     font-size: 1.5em;
-    font-family: titleFont;
+    font-family: linkFont;
 }
 
 .cellSummary{
@@ -69,4 +69,9 @@ body {
     color :rgb(29, 5, 2);
     font-size: .7em;
     font-family: linkFont;
+}
+
+.previewGif{
+    max-width: 100%;
+    text-align: center;
 }
