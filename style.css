@@ -29,53 +29,6 @@ body {
     font-family: titleFont;
 }
 
-.projectTable{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 2%;
-}
-
-.projectCell{
-    width: 1%;
-    padding: 1%;
-}
-
-.cellTitle{
-    text-align: left;
-    margin-left: 5%;
-    color :rgb(15, 2, 0);
-    font-size: 1.5em;
-    font-family: linkFont;
-}
-
-.cellSummary{
-    text-align: justify;
-    color :rgb(15, 2, 0);
-    font-size: 1em;
-    font-family: parFont;
-}
-
-.cellRole{
-    padding-top: 1%;
-    text-align: justify;
-    color :rgb(29, 5, 2);
-    font-size: 1em;
-    font-family: parFont;
-}
-
-.cellLink{
-    text-align: center;
-    margin-left: 10%;
-    color :rgb(29, 5, 2);
-    font-size: .7em;
-    font-family: linkFont;
-}
-
-.previewGif{
-    max-width: 100%;
-    text-align: center;
-}
-
 .row{
     width: 60%;
     margin-left: 20%;
@@ -92,4 +45,42 @@ body {
 .column{
     float: left;
     width: 33.33%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.previewTitle{
+    text-align: left;
+    margin-left: 5%;
+    color :rgb(15, 2, 0);
+    font-size: 1.5em;
+    font-family: linkFont;
+}
+
+.previewGif{
+    max-width: 100%;
+    text-align: center;
+}
+
+.previewSummary{
+    text-align: justify;
+    color :rgb(15, 2, 0);
+    font-size: 1em;
+    font-family: parFont;
+}
+
+.previewRole{
+    padding-top: 1%;
+    text-align: justify;
+    color :rgb(29, 5, 2);
+    font-size: 1em;
+    font-family: parFont;
+}
+
+.priviewLink{
+    text-align: center;
+    margin-left: 10%;
+    color :rgb(29, 5, 2);
+    font-size: .7em;
+    font-family: linkFont;
 }
