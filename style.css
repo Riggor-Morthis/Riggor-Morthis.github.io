@@ -15,16 +15,16 @@
 
 body {
     background: rgb(255, 255, 255);
-    background: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(247, 243, 232, 1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(247, 243, 232, 1) 100%);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(247, 243, 232, 1) 100%);
+    background: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(250, 225, 200, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(250, 225, 200, 1) 100%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(250, 225, 200, 1) 100%);
 }
 
 .pageTitle{
     text-align: left;
     margin-top: 2%;
     margin-left: 33%;
-    color :rgb(15, 2, 0);
+    color :rgb(30, 6, 0);
     font-size: 5em;
     font-family: titleFont;
 }
@@ -52,7 +52,7 @@ body {
 .previewTitle{
     text-align: left;
     margin-left: 5%;
-    color :rgb(15, 2, 0);
+    color :rgb(30, 6, 0);
     font-size: 1.5em;
     font-family: linkFont;
 }
@@ -64,7 +64,7 @@ body {
 
 .previewSummary{
     text-align: justify;
-    color :rgb(15, 2, 0);
+    color :rgb(30, 6, 0);
     font-size: 1em;
     font-family: parFont;
 }
@@ -72,7 +72,7 @@ body {
 .previewRole{
     padding-top: 1%;
     text-align: justify;
-    color :rgb(29, 5, 2);
+    color :rgb(30, 6, 0);
     font-size: 1em;
     font-family: parFont;
 }
@@ -80,7 +80,7 @@ body {
 .previewLink{
     text-align: center;
     margin-left: 10%;
-    color :rgb(29, 5, 2);
+    color :rgb(30, 6, 0);
     font-size: .7em;
     font-family: linkFont;
 }
