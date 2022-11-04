@@ -1,16 +1,16 @@
 @font-face {
     font-family: titleFont;
-    src: url(/fonts/AnkhSanctuary-nROx4.ttf);
+    src: url(/fonts/Robot9000.ttf);
 }
 
 @font-face {
     font-family: parFont;
-    src: url(/fonts/TheRiftShop-Yzde4.ttf);
+    src: url(/fonts/TheRiftShop.ttf);
 }
 
 @font-face{
     font-family: linkFont;
-    src: url(/fonts/Revamped-X3q1a.ttf);
+    src: url(/fonts/Revamped.ttf);
 }
 
 body {
