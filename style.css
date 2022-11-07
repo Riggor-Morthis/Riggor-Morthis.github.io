@@ -14,17 +14,17 @@
 }
 
 a:link{
-    color :rgb(60, 12, 0);
+    color :rgb(90, 18, 0);
     text-decoration: none;
 }
 
 a:visited{
-    color :rgb(45, 9, 0);
+    color :rgb(60, 12, 0);
     text-decoration: none;
 }
 
 a:hover{
-    color :rgb(90, 18, 0);
+    color :rgb(120, 24, 0);
     text-decoration: underline;
 }
 
