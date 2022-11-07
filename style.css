@@ -97,6 +97,14 @@ body {
     font-family: linkFont;
 }
 
+.detailsTitle{
+    text-align: left;
+    margin-left: 10%;
+    color :rgb(30, 6, 0);
+    font-size: 1.2em;
+    font-family: linkFont;
+}
+
 .detailsRow{
     width: 60%;
     margin-left: 20%;
@@ -117,3 +125,16 @@ body {
     padding-left: 1%;
     padding-right: 1%;
 }
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
