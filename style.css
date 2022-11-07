@@ -8,23 +8,23 @@
     src: url(/fonts/TheRiftShop.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: linkFont;
     src: url(/fonts/Revamped.ttf);
 }
 
-a:link{
-    color :rgb(90, 18, 0);
+a:link {
+    color: rgb(90, 18, 0);
     text-decoration: none;
 }
 
-a:visited{
-    color :rgb(60, 12, 0);
+a:visited {
+    color: rgb(60, 12, 0);
     text-decoration: none;
 }
 
-a:hover{
-    color :rgb(120, 24, 0);
+a:hover {
+    color: rgb(120, 24, 0);
     text-decoration: underline;
 }
 
@@ -35,122 +35,129 @@ body {
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(250, 225, 200, 1) 100%);
 }
 
-.pageTitle{
+.pageTitle {
     text-align: left;
     margin-top: 2%;
     margin-left: 33%;
-    color :rgb(30, 6, 0);
+    color: rgb(30, 6, 0);
     font-size: 5em;
     font-family: titleFont;
 }
 
-.row{
+.row {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 1%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
-.column{
+.column {
     width: 31.33%;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-.previewTitle{
+.previewTitle {
     text-align: left;
     margin-left: 10%;
-    color :rgb(30, 6, 0);
+    color: rgb(30, 6, 0);
     font-size: 1.5em;
     font-family: linkFont;
 }
 
-.previewGif{
+.previewGif {
     max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.previewSummary{
+.previewSummary {
     text-align: justify;
-    color :rgb(30, 6, 0);
+    color: rgb(30, 6, 0);
     font-size: 1em;
     font-family: parFont;
 }
 
-.previewRole{
+.previewRole {
     padding-top: 1%;
     text-align: justify;
-    color :rgb(30, 6, 0);
+    color: rgb(30, 6, 0);
     font-size: 1em;
     font-family: parFont;
 }
 
-.previewLink{
+.previewLink {
     text-align: left;
     margin-left: 10%;
-    color :rgb(30, 6, 0);
+    color: rgb(30, 6, 0);
     font-size: .7em;
     font-family: linkFont;
 }
 
-.detailsTitle{
+.detailsTitle {
     text-align: left;
     margin-top: 2%;
     margin-left: 33%;
-    color :rgb(30, 6, 0);
+    color: rgb(30, 6, 0);
     font-size: 3em;
     font-family: titleFont;
 }
 
-.detailsRow{
+.detailsRow {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 1%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
-.detailsLeftColumn{
+.detailsLeftColumn {
     width: 31.33%;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-.detailsRightColumn{
+.detailsRightColumn {
     width: 62.66%;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-.detailsSummary{
+.detailsSummary {
     text-align: justify;
-    color :rgb(30, 6, 0);
+    color: rgb(30, 6, 0);
     font-size: 1.2em;
     font-family: parFont;
 }
 
-.detailsLink{
+.detailsLink {
     text-align: left;
     margin-left: 20%;
-    color :rgb(30, 6, 0);
+    color: rgb(30, 6, 0);
     font-size: 1em;
     font-family: linkFont;
 }
 
 .video {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
     height: 0;
-  }
-  .video iframe {
+}
+
+.video iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
+}
+
+.linkIcons {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
