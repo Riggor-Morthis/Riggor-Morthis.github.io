@@ -81,3 +81,24 @@ body {
     font-size: .7em;
     font-family: linkFont;
 }
+
+.detailsRow{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.detailsLeftColumn{
+    width: 31.33%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.detailsRightColumn{
+    width: 62.66%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
