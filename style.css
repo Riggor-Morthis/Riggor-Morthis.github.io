@@ -34,16 +34,11 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 1%;
-}
-
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .column{
-    float: left;
     width: 31.33%;
     padding-left: 1%;
     padding-right: 1%;
@@ -51,7 +46,7 @@ body {
 
 .previewTitle{
     text-align: left;
-    margin-left: 5%;
+    margin-left: 10%;
     color :rgb(30, 6, 0);
     font-size: 1.5em;
     font-family: linkFont;
@@ -59,7 +54,9 @@ body {
 
 .previewGif{
     max-width: 100%;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .previewSummary{
@@ -78,7 +75,7 @@ body {
 }
 
 .previewLink{
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
     color :rgb(30, 6, 0);
     font-size: .7em;
