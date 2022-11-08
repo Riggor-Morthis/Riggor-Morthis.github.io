@@ -1,11 +1,13 @@
 var personnalDiv;
 var educationDiv;
 
-document.addEventListener('load', FindDivs);
+document.addEventListener('load', FindDivs());
 
 function FindDivs(){
     personnalDiv = document.getElementById("personnalDiv");
     educationDiv = document.getElementById("educationDiv");
+
+    ShowPersonnalProjects();
 }
 
 function ShowPersonnalProjects(){
