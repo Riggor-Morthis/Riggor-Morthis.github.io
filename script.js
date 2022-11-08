@@ -13,7 +13,7 @@ window.onload = function(){
 
     personnalButton = document.getElementById("personnalButton");
     educationButton = document.getElementById("educationButton");
-    experienceButton = documen.getElementById("experienceButton");
+    experienceButton = document.getElementById("experienceButton");
 
     ShowPersonnalProjects();
 }
