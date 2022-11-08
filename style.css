@@ -42,6 +42,7 @@ body {
     color: rgb(30, 6, 0);
     font-size: 5em;
     font-family: titleFont;
+    margin-bottom: 3%;
 }
 
 .buttonRow {
@@ -54,9 +55,9 @@ body {
 }
 
 .divButton {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     height: 100%;
     color: #5A1200;
     font-family: linkFont;
@@ -68,15 +69,17 @@ body {
     display: inline-block;
     cursor: pointer;
     text-align: center;
+    padding-top: .6%;
+    padding-bottom: .6%;
 }
 
 .divButton:hover {
     background: #C8AF96;
     border: solid #781800 1px;
     color: #781800;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     text-decoration: none;
 }
 
