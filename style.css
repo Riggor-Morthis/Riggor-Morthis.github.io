@@ -83,6 +83,26 @@ body {
     text-decoration: none;
 }
 
+.divButtonClicked {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    height: 100%;
+    color: rgb(60, 12, 0);
+    font-family: linkFont;
+    width: 25%;
+    font-size: 1em;
+    background-color: rgb(200, 175, 150);
+    border: solid rgb(60, 12, 0) 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding-top: .6%;
+    padding-bottom: .6%;
+    pointer-events: none;
+}
+
 .row {
     width: 60%;
     margin-left: 20%;
