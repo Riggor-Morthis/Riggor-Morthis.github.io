@@ -1,8 +1,6 @@
 var personnalDiv;
 var educationDiv;
 
-document.addEventListener('DOMContentLoaded', FindDivs());
-
 function FindDivs(){
     personnalDiv = document.getElementById("personnalDiv");
     educationDiv = document.getElementById("educationDiv");
@@ -18,6 +16,8 @@ function ShowPersonnalProjects(){
 }
 
 function ShowEducationProjects(){
+    if(educationDiv == null) FindDivs();
+
     personnalDiv.style.display = "none";
     educationDiv.style.display = "flex";
 }
