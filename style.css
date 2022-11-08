@@ -74,7 +74,7 @@ body {
 }
 
 .divButton:hover {
-    background: #C8AF96;
+    background: rgba(250, 225, 200, 1);
     border: solid #781800 1px;
     color: #781800;
     -webkit-border-radius: 5px;
