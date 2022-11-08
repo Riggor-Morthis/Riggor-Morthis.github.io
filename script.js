@@ -1,6 +1,8 @@
 var personnalDiv;
 var educationDiv;
 
+window.onload = FindDivs();
+
 function FindDivs(){
     personnalDiv = document.getElementById("personnalDiv");
     educationDiv = document.getElementById("educationDiv");
@@ -9,15 +11,11 @@ function FindDivs(){
 }
 
 function ShowPersonnalProjects(){
-    if(personnalDiv == null) FindDivs();
-
     personnalDiv.style.display = "flex";
     educationDiv.style.display = "none";
 }
 
 function ShowEducationProjects(){
-    if(educationDiv == null) FindDivs();
-
     personnalDiv.style.display = "none";
     educationDiv.style.display = "flex";
 }
