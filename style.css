@@ -71,6 +71,8 @@ body {
     text-align: center;
     padding-top: .6%;
     padding-bottom: .6%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .divButton:hover {
@@ -101,6 +103,8 @@ body {
     padding-top: .6%;
     padding-bottom: .6%;
     pointer-events: none;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .row {
