@@ -44,6 +44,42 @@ body {
     font-family: titleFont;
 }
 
+.buttonRow {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: .5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divButton {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 100%;
+    color: #5A1200;
+    font-family: linkFont;
+    width: 25%;
+    font-size: 1em;
+    background-color: #FFFFFF;
+    border: solid #5A1200 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.divButton:hover {
+    background: #C8AF96;
+    border: solid #781800 1px;
+    color: #781800;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 .row {
     width: 60%;
     margin-left: 20%;
