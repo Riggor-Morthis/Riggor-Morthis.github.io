@@ -11,6 +11,8 @@ function FindDivs(){
 }
 
 function ShowPersonnalProjects(){
+    if(personnalDiv == null) FindDivs();
+
     personnalDiv.style.display = "flex";
     educationDiv.style.display = "none";
 }
