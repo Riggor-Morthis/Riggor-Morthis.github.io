@@ -1,7 +1,7 @@
 var personnalDiv;
 var educationDiv;
 
-document.addEventListener('load', FindDivs());
+document.addEventListener('DOMContentLoaded', FindDivs());
 
 function FindDivs(){
     personnalDiv = document.getElementById("personnalDiv");
