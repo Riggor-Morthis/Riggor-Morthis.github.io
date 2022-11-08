@@ -1,9 +1,7 @@
 var personnalDiv;
 var educationDiv;
 
-window.onload = FindDivs();
-
-function FindDivs(){
+window.onload = function(){
     personnalDiv = document.getElementById("personnalDiv");
     educationDiv = document.getElementById("educationDiv");
 
