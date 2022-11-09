@@ -20,7 +20,7 @@ window.onload = function(){
     identityButton = document.getElementById("identityButton");
 
     console.log(window.location.href);
-    console.log(window.location.hahs);
+    console.log(window.location.hash);
 
     switch(window.location.hash){
         case "personnal" : ShowPersonnalProjects();
