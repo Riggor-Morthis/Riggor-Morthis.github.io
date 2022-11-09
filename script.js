@@ -32,6 +32,8 @@ function ShowPersonnalProjects(){
     educationButton.className = "divButton";
     experienceButton.className = "divButton";
     identityButton.className = "divButton";
+
+    window.location.href.hash = "#personnal";
 }
 
 function ShowEducationProjects(){
