@@ -19,6 +19,9 @@ window.onload = function(){
     experienceButton = document.getElementById("experienceButton");
     identityButton = document.getElementById("identityButton");
 
+    console.log(window.location.href);
+    console.log(window.location.hahs);
+
     switch(window.location.hash){
         case "personnal" : ShowPersonnalProjects();
         break;
