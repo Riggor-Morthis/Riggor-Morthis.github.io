@@ -23,13 +23,13 @@ window.onload = function(){
     console.log(window.location.hash);
 
     switch(window.location.hash){
-        case "personnal" : ShowPersonnalProjects();
+        case "#personnal" : ShowPersonnalProjects();
         break;
-        case "education" : ShowEducationProjects();
+        case "#education" : ShowEducationProjects();
         break;
-        case "professional" : ShowProfessionalExperience();
+        case "#professional" : ShowProfessionalExperience();
         break;
-        case "identity" : ShowIdentity();
+        case "#identity" : ShowIdentity();
         break;
         default : ShowPersonnalProjects();
     }
