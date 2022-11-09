@@ -295,6 +295,18 @@ body {
     padding-right: 1%;
 }
 
+.idLeftColumn {
+    width: 48%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.idRightColumn {
+    width: 48%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 .pdf {
     position: relative;
     padding-bottom: 100%;
@@ -328,4 +340,111 @@ body {
     color: rgb(30, 6, 0);
     font-size: 1.3em;
     font-family: linkFont;
+}
+
+@media screen and (max-width: 1000px) {
+    .pageTitle{
+        margin-left : 10%;
+        font-size: 2.5em;
+        margin-bottom: 2%;
+    }
+
+    .buttonRow{
+        width : 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0%; 
+    }
+    
+    .divButton{
+        font-size: 0.8em;
+    }
+
+    .divButtonClicked{
+        font-size: 0.8em;
+    }
+    
+    .row{
+        width: 90%;
+        margin-left:5%;
+        margin-right: 5%;
+    }
+
+    .identityRow{
+        width: 90%;
+        margin-left:5%;
+        margin-right: 5%;
+    }
+
+    .column{
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .previewTitle{
+        font-size: 1.2em;
+    }
+
+    .detailsTitle{
+        margin-left: 15%;
+        font-size: 1.5em;
+    }
+
+    .detailsRow{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .detailsLeftColumn{
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .detailsRightColumn{
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .linkIcons{
+        width: 20px;
+        height: 20px;
+    }
+
+    .backButton{
+        margin-left: 5%;
+    }
+
+    .jobsRow{
+        width: 90%;
+        margin-left:5%;
+        margin-right: 5%;
+    }
+
+    .jobsLeftColumn{
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .jobsRightColumn{
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .idLeftColumn{
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .idRightColumn{
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
 }
