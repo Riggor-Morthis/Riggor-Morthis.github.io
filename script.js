@@ -8,8 +8,6 @@ var educationButton;
 var experienceButton;
 var identityButton;
 
-var lastURL;
-
 window.onload = function(){
     personnalDiv = document.getElementById("personnalDiv");
     educationDiv = document.getElementById("educationDiv");
@@ -76,6 +74,4 @@ function CleanUp(){
     educationButton.className = "divButton";
     experienceButton.className = "divButton";
     identityButton.className = "divButton";
-
-    lastURL = window.location.href;
 }
