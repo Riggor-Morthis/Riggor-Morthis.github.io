@@ -8,6 +8,8 @@ var educationButton;
 var experienceButton;
 var identityButton;
 
+var lastURL;
+
 window.onload = function(){
     personnalDiv = document.getElementById("personnalDiv");
     educationDiv = document.getElementById("educationDiv");
@@ -33,57 +35,47 @@ window.onload = function(){
 }
 
 function ShowPersonnalProjects(){
+    CleanUp();
+
     personnalDiv.style.display = "flex";
-    educationDiv.style.display = "none";
-    experienceDiv.style.display = "none";
-    identityDiv.style.display = "none";
-
     personnalButton.className = "divButtonClicked";
-    educationButton.className = "divButton";
-    experienceButton.className = "divButton";
-    identityButton.className = "divButton";
-
     window.location.hash = "personnal";
 }
 
 function ShowEducationProjects(){
-    personnalDiv.style.display = "none";
+    CleanUp();
+
     educationDiv.style.display = "flex";
-    experienceDiv.style.display = "none";
-    identityDiv.style.display = "none";
-
-    personnalButton.className = "divButton";
     educationButton.className = "divButtonClicked";
-    experienceButton.className = "divButton";
-    identityButton.className = "divButton";
-
     window.location.hash = "education";
 }
 
 function ShowProfessionalExperience(){
-    personnalDiv.style.display = "none";
-    educationDiv.style.display = "none";
+    CleanUp();
+
     experienceDiv.style.display = "flex";
-    identityDiv.style.display = "none";
-
-    personnalButton.className = "divButton";
-    educationButton.className = "divButton";
     experienceButton.className = "divButtonClicked";
-    identityButton.className = "divButton";
-
     window.location.hash = "professional";
 }
 
 function ShowIdentity(){
+    CleanUp();
+
+    identityDiv.style.display = "flex";
+    identityButton.className = "divButtonClicked";
+    window.location.hash = "identity";
+}
+
+function CleanUp(){
     personnalDiv.style.display = "none";
     educationDiv.style.display = "none";
     experienceDiv.style.display = "none";
-    identityDiv.style.display = "flex";
+    identityDiv.style.display = "none";
 
     personnalButton.className = "divButton";
     educationButton.className = "divButton";
     experienceButton.className = "divButton";
-    identityButton.className = "divButtonClicked";
+    identityButton.className = "divButton";
 
-    window.location.hash = "identity";
+    lastURL = window.location.href;
 }
