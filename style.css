@@ -377,7 +377,7 @@ body {
     }
 
     .column{
-        width: 49%;
+        width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
@@ -398,13 +398,13 @@ body {
     }
 
     .detailsLeftColumn{
-        width: 49%;
+        width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
     .detailsRightColumn{
-        width: 49%;
+        width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
@@ -425,25 +425,25 @@ body {
     }
 
     .jobsLeftColumn{
-        width: 49%;
+        width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
     .jobsRightColumn{
-        width: 49%;
+        width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
     .idLeftColumn{
-        width: 49%;
+        width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
     .idRightColumn{
-        width: 49%;
+        width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
