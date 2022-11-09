@@ -33,7 +33,7 @@ function ShowPersonnalProjects(){
     experienceButton.className = "divButton";
     identityButton.className = "divButton";
 
-    window.location.href.hash = "personnal";
+    window.location.hash = "personnal";
 }
 
 function ShowEducationProjects(){
@@ -47,7 +47,7 @@ function ShowEducationProjects(){
     experienceButton.className = "divButton";
     identityButton.className = "divButton";
 
-    window.location.href.hash = "education";
+    window.location.hash = "education";
 }
 
 function ShowProfessionalExperience(){
@@ -61,7 +61,7 @@ function ShowProfessionalExperience(){
     experienceButton.className = "divButtonClicked";
     identityButton.className = "divButton";
 
-    window.location.href.hash = "professional";
+    window.location.hash = "professional";
 }
 
 function ShowIdentity(){
@@ -75,5 +75,5 @@ function ShowIdentity(){
     experienceButton.className = "divButton";
     identityButton.className = "divButtonClicked";
 
-    window.location.href.hash = "identity";
+    window.location.hash = "identity";
 }
