@@ -19,7 +19,17 @@ window.onload = function(){
     experienceButton = document.getElementById("experienceButton");
     identityButton = document.getElementById("identityButton");
 
-    ShowPersonnalProjects();
+    switch(window.location.hash){
+        case "personnal" : ShowPersonnalProjects();
+        break;
+        case "education" : ShowEducationProjects();
+        break;
+        case "professional" : ShowProfessionalExperience();
+        break;
+        case "identity" : ShowIdentity();
+        break;
+        default : ShowPersonnalProjects();
+    }
 }
 
 function ShowPersonnalProjects(){
