@@ -357,11 +357,11 @@ body {
     }
     
     .divButton{
-        font-size: 0.8em;
+        font-size: 100%;
     }
 
     .divButtonClicked{
-        font-size: 0.8em;
+        font-size: 100%;
     }
     
     .row{
@@ -437,13 +437,13 @@ body {
     }
 
     .idLeftColumn{
-        width: 47%;
+        width: 100%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
     .idRightColumn{
-        width: 47%;
+        width: 100%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
