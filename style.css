@@ -349,111 +349,152 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-    .pageTitle{
-        margin-left : auto;
+    .pageTitle {
+        margin-left: auto;
         margin-right: auto;
         font-size: 2.5em;
         margin-bottom: 2%;
     }
 
-    .buttonRow{
-        width : 96%;
+    .buttonRow {
+        width: 96%;
         margin-left: 2%;
         margin-right: 2%;
-        margin-top: 0%; 
+        margin-top: 0%;
     }
-    
-    .divButton{
+
+    .divButton {
         font-size: 100%;
     }
 
-    .divButtonClicked{
+    .divButtonClicked {
         font-size: 100%;
     }
-    
-    .row{
+
+    .row {
         width: 90%;
-        margin-left:5%;
+        margin-left: 5%;
         margin-right: 5%;
     }
 
-    .identityRow{
+    .identityRow {
         width: 90%;
-        margin-left:5%;
+        margin-left: 5%;
         margin-right: 5%;
     }
 
-    .column{
+    .column {
         width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
-    .previewTitle{
+    .previewTitle {
         font-size: 1.2em;
     }
 
-    .detailsTitle{
+    .detailsTitle {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
         font-size: 1.5em;
     }
 
-    .detailsRow{
+    .detailsRow {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
 
-    .detailsLeftColumn{
+    .detailsLeftColumn {
         width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
-    .detailsRightColumn{
+    .detailsRightColumn {
         width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
-    .linkIcons{
+    .linkIcons {
         width: 20px;
         height: 20px;
     }
 
-    .backButton{
+    .backButton {
         margin-left: 5%;
     }
 
-    .jobsRow{
+    .jobsRow {
         width: 90%;
-        margin-left:5%;
+        margin-left: 5%;
         margin-right: 5%;
     }
 
-    .jobsLeftColumn{
+    .jobsLeftColumn {
         width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
-    .jobsRightColumn{
+    .jobsRightColumn {
         width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
-    .idLeftColumn{
+    .idLeftColumn {
         width: 100%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
 
-    .idRightColumn{
+    .idRightColumn {
         width: 100%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
+}
+
+/* Separation */
+
+.about-me-title {
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.card {
+    border: none;
+}
+
+.blur-in {
+    transition: all 0.2s ease;
+    -webkit-filter: blur(0px);
+}
+
+.blur-in:hover{
+    -webkit-filter: blur(12px);
+}
+
+.overlay{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+    font-size: 40px;
+    margin-top: 0em;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card-body:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
 }
