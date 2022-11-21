@@ -40,6 +40,7 @@ body {
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     color: rgb(30, 6, 0);
     font-size: 5em;
     font-family: titleFont;
@@ -136,6 +137,7 @@ body {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     color: rgb(30, 6, 0);
     font-size: 1.5em;
     font-family: linkFont;
@@ -176,6 +178,7 @@ body {
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     color: rgb(30, 6, 0);
     font-size: 3em;
     font-family: titleFont;
@@ -393,6 +396,7 @@ body {
     .detailsTitle{
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
         font-size: 1.5em;
     }
 
