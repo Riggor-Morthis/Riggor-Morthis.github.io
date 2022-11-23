@@ -131,6 +131,11 @@ body {
     width: 31.33%;
     padding-left: 1%;
     padding-right: 1%;
+    filter:blur(0px);
+}
+
+.column:hover ~.column{
+    filter:blur(1px);
 }
 
 .previewTitle {
@@ -138,7 +143,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: rgb(30, 6, 0);
+    color: rgb(150, 30, 0);
     font-size: 1.5em;
     font-family: linkFont;
 }
@@ -456,45 +461,4 @@ body {
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
-}
-
-/* Separation */
-
-.about-me-title {
-    border: 1px solid white;
-    border-radius: 50px;
-}
-
-.card {
-    border: none;
-}
-
-.blur-in {
-    transition: all 0.2s ease;
-    -webkit-filter: blur(0px);
-}
-
-.blur-in:hover{
-    -webkit-filter: blur(12px);
-}
-
-.overlay{
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0px;
-    right: 0px;
-    font-size: 40px;
-    margin-top: 0em;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.card-body:hover .overlay{
-    visibility: visible;
-    opacity: 1;
-}
-
-a{
-    text-decoration: none;
 }
