@@ -8,8 +8,12 @@ var educationButton;
 var experienceButton;
 var identityButton;
 
+var columns;
+var columnLength;
+
 window.onload = function(){
     FindAllDivs();
+    FindAllColumns();
     PickRightDiv();    
 }
 
@@ -23,6 +27,32 @@ function FindAllDivs(){
     educationButton = document.getElementById("educationButton");
     experienceButton = document.getElementById("experienceButton");
     identityButton = document.getElementById("identityButton");
+}
+
+function FindAllColumns(){
+    columns = document.getElementsByClassName("column");
+    columnLength = columns.length;
+
+    for(var i = 0; i < columnLength; i++){
+        columns[i].onmouseover = PutBlurOn();
+        columns[i].onmouseout = PutBlurOff();
+    }
+}
+
+function PutBlurOn(index){
+    for(var i = 0; i < columnLength; i++){
+        if(i != index){
+            columns[i].style.filter = "blur(3px)";
+        }
+    }
+}
+
+function PutBlurOff(index){
+    for(var i = 0; i < columnLength; i++){
+        if(i != index){
+            columns[i].style.filter = "blur(0px)";
+        }
+    }
 }
 
 function PickRightDiv(){

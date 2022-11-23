@@ -135,6 +135,7 @@ body {
     padding-right: 1%;
     filter:blur(0px);
     margin-bottom:auto;
+    transition: ease 0.2s;
 }
 
 .column:hover{
@@ -144,11 +145,6 @@ body {
     margin-bottom : auto;
     z-index: 1;
     background: rgb(255, 255, 255);
-    transition: ease 0.2s;
-}
-
-.column:hover ~.column{
-    filter:blur(3px);
     transition: ease 0.2s;
 }
 
