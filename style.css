@@ -114,6 +114,7 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 1%;
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -123,6 +124,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 1%;
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -132,10 +134,22 @@ body {
     padding-left: 1%;
     padding-right: 1%;
     filter:blur(0px);
+    margin-bottom:auto;
+}
+
+.column:hover{
+    border: hidden 1px rgb(30, 6, 0);
+    border-radius: 5px;
+    scale:1.25;
+    margin-bottom : auto;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    transition: ease 0.2s;
 }
 
 .column:hover ~.column{
-    filter:blur(1px);
+    filter:blur(3px);
+    transition: ease 0.2s;
 }
 
 .previewTitle {
@@ -194,6 +208,7 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 1%;
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -290,6 +305,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 1%;
+    margin-bottom: 5%;
     display: flex;
     flex-wrap: wrap;
 }
