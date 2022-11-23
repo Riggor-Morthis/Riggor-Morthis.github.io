@@ -35,7 +35,7 @@ function FindAllColumns(){
 
     for(var i = 0; i < columnLength; i++){
         columns[i].onmouseover = function() {
-            PutBlurOn(i);
+            PutBlurOn(columns[i]);
         };
         columns[i].onmouseout = function() {
             PutBlurOff(i);
@@ -43,8 +43,8 @@ function FindAllColumns(){
     }
 }
 
-function PutBlurOn(index){
-    console.log(index);
+function PutBlurOn(column){
+    console.log(column);
     
     for(var i = 0; i < columnLength; i++){
         if(i != index){
