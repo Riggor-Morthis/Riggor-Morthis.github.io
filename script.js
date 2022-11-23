@@ -34,20 +34,21 @@ function FindAllColumns(){
     columnLength = columns.length;
 
     for(var i = 0; i < columnLength; i++){
-        columns[i].onmouseover = PutBlurOn(columns[i]);
-        columns[i].onmouseout = PutBlurOff(i);
+        columns[i].onmouseover = function() {
+            PutBlurOn(i);
+        };
+        columns[i].onmouseout = function() {
+            PutBlurOff(i);
+        };
     }
 }
 
-function PutBlurOn(column){
-    console.log("Blur On !");
-    console.log(column);
-    
-    /*for(var i = 0; i < columnLength; i++){
+function PutBlurOn(index){
+    for(var i = 0; i < columnLength; i++){
         if(i != index){
             columns[i].style.filter = "blur(3px)";
         }
-    }*/
+    }
 }
 
 function PutBlurOff(index){
