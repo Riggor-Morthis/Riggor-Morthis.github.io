@@ -109,3 +109,7 @@ function CleanUp(){
     experienceButton.className = "divButton";
     identityButton.className = "divButton";
 }
+
+function SwitchPage(page){
+    window.location.href = page;
+}
