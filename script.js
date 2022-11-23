@@ -10,7 +10,6 @@ var identityButton;
 
 window.onload = function(){
     FindAllDivs();
-    AssociateBlurs();
     PickRightDiv();    
 }
 
@@ -24,18 +23,6 @@ function FindAllDivs(){
     educationButton = document.getElementById("educationButton");
     experienceButton = document.getElementById("experienceButton");
     identityButton = document.getElementById("identityButton");
-}
-
-function AssociateBlurs(){
-    $(document).on('mouseenter', '.column', PutBlurOn()).on('mouseleave', '.column', PutBlurOff());
-}
-
-function PutBlurOn(){
-    $(this).find(".column").style.filter = "blur(3px)";
-}
-
-function PutBlurOff(){
-    $(this).find(".column").style.filter = "blur(0px)";
 }
 
 function PickRightDiv(){
