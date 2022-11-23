@@ -46,11 +46,11 @@ function FindAllColumns(){
 function PutBlurOn(column){
     console.log(column);
     
-    for(var i = 0; i < columnLength; i++){
+    /*for(var i = 0; i < columnLength; i++){
         if(i != index){
             columns[i].style.filter = "blur(3px)";
         }
-    }
+    }*/
 }
 
 function PutBlurOff(index){
