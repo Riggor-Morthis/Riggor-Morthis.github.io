@@ -34,8 +34,8 @@ function FindAllColumns(){
     columnLength = columns.length;
 
     for(var i = 0; i < columnLength; i++){
-        columns[i].onmouseover = PutBlurOn();
-        columns[i].onmouseout = PutBlurOff();
+        columns[i].onmouseover = PutBlurOn(i);
+        columns[i].onmouseout = PutBlurOff(i);
     }
 }
 
