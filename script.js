@@ -32,30 +32,21 @@ function FindAllDivs(){
 function FindAllColumns(){
     columns = document.getElementsByClassName("column");
     columnLength = columns.length;
-
-    for(var i = 0; i < columnLength; i++){
-        columns[i].onmouseover = function() {
-            PutBlurOn(columns[i]);
-        };
-        columns[i].onmouseout = function() {
-            PutBlurOff(i);
-        };
-    }
 }
 
 function PutBlurOn(column){
     console.log(column);
     
-    /*for(var i = 0; i < columnLength; i++){
-        if(i != index){
+    for(var i = 0; i < columnLength; i++){
+        if(columns[i] != column){
             columns[i].style.filter = "blur(3px)";
         }
-    }*/
+    }
 }
 
-function PutBlurOff(index){
+function PutBlurOff(column){
     for(var i = 0; i < columnLength; i++){
-        if(i != index){
+        if(columns[i] != column){
             columns[i].style.filter = "blur(0px)";
         }
     }
