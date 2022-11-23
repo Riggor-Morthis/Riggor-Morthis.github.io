@@ -52,6 +52,7 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: .5%;
+    margin-bottom: 1%;
     display: flex;
     flex-wrap: wrap;
 }
