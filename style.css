@@ -410,6 +410,10 @@ body {
         margin-right: 0.5%;
     }
 
+    .column:hover{
+        scale:1.1;
+    }
+
     .previewTitle {
         font-size: 1.2em;
     }
