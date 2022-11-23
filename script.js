@@ -9,6 +9,12 @@ var experienceButton;
 var identityButton;
 
 window.onload = function(){
+    FindAllDivs();
+    AssociateBlurs();
+    PickRightDiv();    
+}
+
+function FindAllDivs(){
     personnalDiv = document.getElementById("personnalDiv");
     educationDiv = document.getElementById("educationDiv");
     experienceDiv = document.getElementById("experienceDiv");
@@ -18,10 +24,21 @@ window.onload = function(){
     educationButton = document.getElementById("educationButton");
     experienceButton = document.getElementById("experienceButton");
     identityButton = document.getElementById("identityButton");
+}
 
-    console.log(window.location.href);
-    console.log(window.location.hash);
+function AssociateBlurs(){
+    $(document).on('mouseenter', '.column', PutBlurOn()).on('mouseleave', '.column', PutBlurOff());
+}
 
+function PutBlurOn(){
+    $(this).find(".column").style.filter = "blur(3px)";
+}
+
+function PutBlurOff(){
+    $(this).find(".column").style.filter = "blur(0px)";
+}
+
+function PickRightDiv(){
     switch(window.location.hash){
         case "#personnal" : ShowPersonnalProjects();
         break;
