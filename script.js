@@ -35,8 +35,6 @@ function FindAllColumns(){
 }
 
 function PutBlurOn(column){
-    console.log(column);
-    
     for(var i = 0; i < columnLength; i++){
         if(columns[i] != column){
             columns[i].style.filter = "blur(3px)";
