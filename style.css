@@ -327,9 +327,7 @@ body {
 }
 
 .idLeftColumn {
-    width: 62%;
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 67%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -350,7 +348,7 @@ body {
 
 .pdfRecommandation {
     position: relative;
-    padding-bottom: 149%;
+    padding-bottom: 78%;
     height: 0;
     width: 50%;
 }
