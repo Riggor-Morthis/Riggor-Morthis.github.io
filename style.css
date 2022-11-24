@@ -320,8 +320,14 @@ body {
     padding-right: 1%;
 }
 
-.idColumn {
+.idRightColumn {
     width: 31%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.idLeftColumn {
+    width: 62%;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -342,8 +348,9 @@ body {
 
 .pdfRecommandation {
     position: relative;
-    padding-bottom: 147%;
+    padding-bottom: 149%;
     height: 0;
+    width: 50%;
 }
 
 .pdfRecommandation iframe {
@@ -463,9 +470,19 @@ body {
         margin-right: 0.5%;
     }
 
-    .idColumn {
+    .idLeftColumn {
         width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
+    }
+
+    .idRightColumn{
+        width: 47%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .pdfRecommandation{
+        width: 100%;
     }
 }
