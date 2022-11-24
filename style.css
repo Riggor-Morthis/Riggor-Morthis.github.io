@@ -320,14 +320,8 @@ body {
     padding-right: 1%;
 }
 
-.idLeftColumn {
-    width: 48%;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-.idRightColumn {
-    width: 48%;
+.idColumn {
+    width: 31%;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -469,14 +463,8 @@ body {
         margin-right: 0.5%;
     }
 
-    .idLeftColumn {
-        width: 100%;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
-    }
-
-    .idRightColumn {
-        width: 100%;
+    .idColumn {
+        width: 47%;
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
