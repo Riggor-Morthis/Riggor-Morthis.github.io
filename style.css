@@ -65,7 +65,7 @@ body {
     color: #5A1200;
     font-family: linkFont;
     width: 25%;
-    font-size: 1em;
+    font-size: 0.8vw;
     background-color: #FFFFFF;
     border: solid #5A1200 1px;
     text-decoration: none;
@@ -96,7 +96,7 @@ body {
     color: rgb(60, 12, 0);
     font-family: linkFont;
     width: 25%;
-    font-size: 1em;
+    font-size: 0.8vw;
     background-color: rgb(200, 175, 150);
     border: solid rgb(60, 12, 0) 1px;
     text-decoration: none;
@@ -385,11 +385,11 @@ body {
     }
 
     .divButton {
-        font-size: 100%;
+        font-size: 1.1vw;
     }
 
     .divButtonClicked {
-        font-size: 100%;
+        font-size: 1.1vw;
     }
 
     .row {
