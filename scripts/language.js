@@ -3,10 +3,10 @@ function ChangeLanguage(target) {
 
     switch (target) {
         case 'EN':
-            path = "/en" + window.location.pathname + window.location.hash;
+            path = "/en" + window.location.pathname;
             break;
         case 'FR':
-            path = window.location.pathname.substring(3) + window.location.hash;
+            path = window.location.pathname.substring(3);
             break;
         default:
             path = "/";
