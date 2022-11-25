@@ -36,13 +36,12 @@ body {
 }
 
 .languageIcon{
-    text-align: right;
-    margin-right: 1%;
-    margin-top: 0.5%;
+    width: 1.5em;
+    float: right;
 }
 
 .pageTitle {
-    text-align: left;
+    clear: both;
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
