@@ -89,6 +89,9 @@ a:active {
     font-family: mainTitles;
     font-size: 8em;
 }
+.bookTitle{
+    margin-top: 10%;
+}
 
 .floatBody {
     padding: 0%;
@@ -287,6 +290,9 @@ a:active {
 @media screen and (max-aspect-ratio : 1/1) {
     .pageTitle {
         font-size: 6.5em;
+    }
+    .bookTitle{
+        margin-top: 35%;
     }
 
     .floatBody {
