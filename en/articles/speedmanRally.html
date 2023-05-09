@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Speedman Rally</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Speedman Rally</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/en/index#personnal')">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/en/index#education')">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/en/index#professional')">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/en/index#identity')">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+            
+            <div class="markBack" onclick="ChangePage('/en/index#personnal')">
+                <p class="markText">Back</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">A week-long game jam, about creating a game resembling those included in the Nokia
+                    3310s. Therefore, it was a jam all about constraints: 1-bit colour palette, only one sound channel, 10
+                    inputs tops, 48x84 resolution... I really like this kind of project, as I believe obstacles breed
+                    creativity, which is why I really enjoyed this jam.<br>This jam's theme was "Fast&Slow", which reminds me of rally races, where sinuous
+                    hairpins are interspersed with straight lines where you have to go pedal-to-the-metal. Wanting to offer
+                    a lot of content despite the short dev time, I used procedural generation for my races' layout; more
+                    specifically, I used wave function collapse, because I've wanted to try it for a long time but the
+                    opportunity had not yet presented itself.<br>Unfortunately, I spent more time experimenting and learning than expected, which
+                    was at the expense of a smoother vehicle rotation, despite it being planned. I still don't regret
+                    learning a new proc-gen method, and thinking outside of my box.</p>
+            </div>
+            <div class="articleColumn">
+                <iframe frameborder="0"
+                    src="https://itch.io/embed/1945115?bg_color=c7f0d8&amp;fg_color=c7f0d8&amp;link_color=43523d&amp;border_color=43523d"
+                    width="208" height="167"><a href="https://riggormorthis.itch.io/speedman-rally">Speedman-Rally by
+                        RiggorMorthis</a></iframe>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/Speedman-Rally" target="_blank" class="articleLinks">repo</a>
+                </div>
+
+                <div style="margin-top: 7%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/speedman-rally" target="_blank" class="articleLinks">itchio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Fake 3D Weapon</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Fake 3D Weapon</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+            
+            <div class="markBack" onclick="ChangePage('/index#personnal')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Un court projet, où je cherche à simuler des objets 3D
+                    dans une POV première personne, sans pour autant utiliser de 3D. Basé sur l'accumulation de sprites,
+                    il existe de
+                    nombreuses façons, certaines meilleures que d'autres, de suggérer la perspective et de réagir aux
+                    actions du
+                    joueur. Plus de détails sont disponibles dans <a
+                        href="https://allfeaturesnobugs.blogspot.com/2023/02/lets-fake-third-dimension.html"
+                        target="_blank" style="font-size: 1.4em;">l'article correspondant</a>.</p>
+            </div>
+            <div class="articleColumn">
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/gmQgSKT4xLU"></iframe>
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/text.png">
+                    <a href="https://allfeaturesnobugs.blogspot.com/2023/02/lets-fake-third-dimension.html" target="_blank" class="articleLinks">article</a>
+                </div>
+
+                <div style="margin-top: 3%; clear: both;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/Fake3DWeapon" target="_blank" class="articleLinks">repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

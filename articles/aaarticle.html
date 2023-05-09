@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Article</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Article</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+            
+            <div class="markBack" onclick="ChangePage('/index')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">C'est quoi ce projet ?</p>
+            </div>
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Ca ressemble a quoi ce projet ?</p>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

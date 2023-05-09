@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Dreash</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Dreash</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+            
+            <div class="markBack" onclick="ChangePage('/index#education')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Un projet universitaire en groupe pour nos cours de
+                    réalité augmentée, notre but était de
+                    faire un "jeu de société" sur Unity. Destiné aux mobiles, il utiliserait des fonctionnalités AR
+                    durant le gameplay, notamment pour créer le plateau de jeu. J'ai été le seul à travailler sur ce
+                    projet, ce qui explique
+                    son manque de features.<br>Sur la vidéo, vous pouvez voir des cartes marquées de QR codes (afin de
+                    les
+                    différencier facilement) sur lesquelles s'affichent des carrés (qui symbolisent des salles).
+                    L'application va relier ces salles entre elles avec des chemins tracés grâce à des courbes
+                    de Bézier, en cherchant à rattacher les voisines les plus proches. On peut ainsi changer
+                    dynamiquement
+                    la disposition de notre plateau de jeu, et donc l'ordre dans lequel il est parcouru.
+                    Une fois que le joueur est satisfait du terrain qu'il a construit en AR, il peut le sauvegarder
+                    grâce à
+                    un bouton, et le plateau est mémorisé dans la carte la plus "centrale", ce qui permettrait aux
+                    autres
+                    cartes d'être réutilisées plus tard pour assurer d'autres fonctions.</p>
+            </div>
+            <div class="articleColumn">
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/ljeS7PmO12I"></iframe>
+                </div>
+                
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/Dreash" target="_blank" class="articleLinks">repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Runic Golems</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Runic Golems</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/index#personnal')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Réalisé durant la Global Game Jam 2021, c'était mon premier contact avec Unreal Engine 5,
+                    et avec le principe de blueprints et de visual scripting. Je n'ai pas donc pas été aussi productif que
+                    d'habitude, mais j'ai quand même eu l'occasion de faire des blueprints pour implémenter de nouvelles
+                    fonctionnalités, et de travailler avec Niagara pour créer certains effets visuels.</p>
+            </div>
+            <div class="articleColumn">
+                <div style="margin-top: 1%;">
+                    <img class="previewGif" src="/png/runicgolem.png" alt="Un screenshot issu du jeu Runic Golems">
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Brieux/GGJ2k22" target="_blank" class="articleLinks">repo</a>
+                </div>
+
+                <div style="margin-top: 3%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://vinek.itch.io/runic-golems" target="_blank" class="articleLinks">itchio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

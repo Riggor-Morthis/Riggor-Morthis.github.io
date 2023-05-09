@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Project Magnetism</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Project Magnetism</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/en/index#personnal')">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/en/index#education')">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/en/index#professional')">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/en/index#identity')">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/en/index#education')">
+                <p class="markText">Back</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">A game made in Unity for of a 2-month university group
+                    project. Our goal was to
+                    make an action-platformer, a la Metroid, based on the use of magnetic fields in the environment and
+                    characters. For example, the playable characted is repelled by magnets of the same polarity, and
+                    attracted to the opposite polarities, which forces you to make the right choices when
+                    platforming.<br>I did several different tasks on this project: I did all the gameplay for the main
+                    character, all the graphics except for the enemies and particles, the shader used to show the
+                    current
+                    polarity of the character, the code for the magnets, the code for the camera behaviour, and all the
+                    level design.<br>NB: because of a mistacke while doing back-ups of this project, the latest version
+                    is lost, so the repo is not representative of what's shown in the video. The slides provided are
+                    mainly
+                    there because of the commentaries still present, which explain our intentions behind the project
+                    very
+                    well.</p>
+            </div>
+            <div class="articleColumn">
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/eo23GbC6BT8"></iframe>
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/project_magnetism" target="_blank"
+                        class="articleLinks">repo</a>
+                </div>
+
+                <div style="margin-top: 7%; clear: both;">
+                    <img class="linkIcon" src="/icons/text.png">
+                    <a href="https://docs.google.com/presentation/d/1tQyeaUrZCj4G9ek08oFfR9ndqdAWng0TjHQd62YNvcQ/edit#slide=id.p1"
+                        target="_blank" class="articleLinks">slides</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

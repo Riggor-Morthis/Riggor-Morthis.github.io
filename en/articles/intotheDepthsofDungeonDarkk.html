@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - into the Depths of Dungeon Darkk</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">into the Depths of Dungeon Darkk</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/en/index#personnal')">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/en/index#education')">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/en/index#professional')">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/en/index#identity')">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/en/index#personnal')">
+                <p class="markText">Back</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">>The company for which I had made DDD came back to tell
+                    me they wanted a 3D game.
+                    So I took this opportunity to redo the entirety of DDD's code, to fix the flaws my testers had
+                    highlighted.<br>First off, the tutorial is now a picture, which is both faster and clearer than
+                    the levels in the previous version. Then you go straight into the procedural levels, which were the
+                    most
+                    interesting part of the game. You now move by dragging your finger rather than pressing it, which
+                    feels
+                    more natural to most people. All skeletons play at the same time rather than one after the other,
+                    which
+                    greatly improves the game's flow. Finally, how much of a level you see at once has increased, thanks
+                    to
+                    a new camera perspective.</p>
+            </div>
+            <div class="articleColumn">
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/4z9ARGSmDIw"></iframe>
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/depths_of_dungeon_darkk" target="_blank"
+                        class="articleLinks">repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

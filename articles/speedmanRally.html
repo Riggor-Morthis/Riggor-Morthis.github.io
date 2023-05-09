@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Speedman Rally</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Speedman Rally</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+
+            
+            <div class="markBack" onclick="ChangePage('/index#personnal')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Une game jam d'une semaine, durant laquelle il fallait
+                    créer un jeu ressemblant à
+                    ceux inclus dans les Nokia 3310. Par conséquent, il s'agissait d'une jam riche en contraintes :
+                    palette
+                    de 2 couleurs, un seul canal de son, 10 contrôles au maximum, résolution de 48 par 84... J'aime
+                    beaucoup
+                    ce
+                    genre de projet, puisque je considère qu'avoir des obstacles est une des meilleures façons de faire
+                    apparaître la
+                    créativité.<br>Le thème de cette jam était "Fast&Slow", ce qui m'évoque les courses de rally
+                    sinueuses, où les enchaînements d'épingles à cheveux sont entrecoupés de lignes droites franchies
+                    pied
+                    au plancher. Désirant faire beaucoup de contenu en peu de temps, j'ai fait de la génération
+                    procédurale pour le tracé de mes courses ; plus particulièrement, j'ai utilisé un algorithme de wave
+                    function collapse, car j'avais
+                    toujours eu envie de m'y essayer mais l'occasion ne s'était pas encore présentée.<br>J'ai passé plus
+                    de temps à expérimenter avec cette méthode que
+                    prévu, au détriment de la rotation progressive du véhicule qui aurait dû être incluse. Malgré ce
+                    défaut, je ne regrette pas d'avoir appris une nouvelle technique de proc-gen et d'être sorti de mes
+                    sentiers battus.</p>
+            </div>
+            <div class="articleColumn">
+                <iframe frameborder="0"
+                    src="https://itch.io/embed/1945115?bg_color=c7f0d8&amp;fg_color=c7f0d8&amp;link_color=43523d&amp;border_color=43523d"
+                    width="208" height="167"><a href="https://riggormorthis.itch.io/speedman-rally">Speedman-Rally by
+                        RiggorMorthis</a></iframe>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/Speedman-Rally" target="_blank" class="articleLinks">repo</a>
+                </div>
+
+                <div style="margin-top: 7%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/speedman-rally" target="_blank" class="articleLinks">itchio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

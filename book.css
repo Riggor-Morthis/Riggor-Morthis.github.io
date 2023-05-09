@@ -1,0 +1,310 @@
+@font-face {
+    font-family: mainTitles;
+    src: url(/fonts/EnchantedLand.otf) format("opentype");
+}
+
+@font-face {
+    font-family: subTitles;
+    src: url(/fonts/PumpkinCheesecake.otf) format("opentype");
+}
+
+@font-face {
+    font-family: mainBody;
+    src: url(/fonts/CoffeeAndCrafts.ttf);
+}
+
+body {
+    background-color: rgb(225, 196, 158);
+    background-image: url('/graphics/paperbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0%;
+}
+
+a {
+    margin-left: 3%;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: subTitles;
+    font-size: 1.7em;
+    text-decoration: underline;
+}
+
+a:link {
+    color: rgb(0, 0, 117);
+}
+
+a:visited {
+    color: rgb(63, 19, 104);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:active {
+    color: rgb(100, 0, 0);
+}
+
+.cover{
+    width: 100%;
+    height: 100%;
+    padding: 100%;
+    margin: 100%;
+    background-color: rgb(102, 56, 65);
+    background-image: url('/graphics/mainCover.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+}
+.hiddenCover{
+    transform: scaleX(0%);
+    transition: none;
+}
+
+.pageTitle {
+    clear: both;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(20, 0, 0);
+    font-family: mainTitles;
+    font-size: 8em;
+}
+
+.floatBody {
+    padding: 0%;
+}
+
+.bookmark {
+    float: right;
+    width: 25%;
+    margin: 0%;
+    margin-left: 75%;
+    position: fixed;
+}
+
+.markContainer {
+    width: 85%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: right
+}
+
+.markButton {
+    width: 100%;
+    height: 100%;
+    background-image: url('/graphics/bookmarkBackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    transform: translateX(80%);
+    transition: ease 0.4s;
+    cursor: pointer;
+}
+
+.markContainer:hover>.markButton {
+    transform: translateX(0%);
+}
+
+.markClicked {
+    width: 100%;
+    height: 100%;
+    background-image: url('/graphics/bookmarkBackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    transform: translateX(0%);
+    cursor: pointer;
+}
+
+.markBack {
+    width: 85%;
+    background-image: url('/graphics/bookmarkBackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    transform: translateX(0%);
+    margin-top: 5%;
+    cursor: pointer;
+    float: right;
+}
+
+.markText {
+    padding-top: .15%;
+    padding-bottom: .15%;
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    text-align: right;
+    color: rgb(20, 0, 0);
+    width: 75%;
+    font-family: mainTitles;
+    font-size: 4vmin;
+}
+
+.centerPage {
+    float: left;
+    width: 50%;
+    margin: 0%;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.previewCell {
+    width: 31%;
+    padding-left: 1%;
+    padding-right: 1%;
+    filter: blur(0px);
+    margin-bottom: auto;
+    transition: ease 0.2s;
+}
+
+.previewCell:hover {
+    border: hidden 1px rgb(20, 0, 0);
+    border-radius: 5px;
+    scale: 1.25;
+    margin-bottom: auto;
+    z-index: 1;
+    background: rgb(225, 196, 158);
+    cursor: pointer;
+}
+
+.previewTitle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 117);
+    font-family: subTitles;
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.previewGif {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.generalText {
+    text-align: justify;
+    padding: .1%;
+    color: rgb(20, 0, 0);
+    font-family: mainBody;
+    font-size: 1.25em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.presentationText {
+    text-align: justify;
+    width: 48%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: rgb(20, 0, 0);
+    font-family: mainBody;
+    font-size: 1.5em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.presentationPDF {
+    width: 99%;
+    margin: .5%;
+    height: 80%;
+}
+
+.articleColumn {
+    width: 49%;
+    padding-left: .5%;
+    padding-right: .5%;
+    margin: 0%
+}
+
+.video {
+    padding-bottom: 56.25%;
+    height: 0;
+    position: relative;
+}
+
+.video iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.linkIcon {
+    width: 8%;
+    float: left;
+    margin-left: 5%;
+}
+
+.articleLinks {
+    margin-top: 1.5%;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.miscellaneous {
+    float: left;
+    position: fixed;
+    width: 25%;
+    margin: 0%;
+}
+
+.languageIcon {
+    width: 3%;
+    float: right;
+    cursor: pointer;
+    margin-top: -10%;
+    margin-right: 3%;
+}
+
+@media screen and (max-aspect-ratio : 1/1) {
+    .pageTitle {
+        font-size: 6.5em;
+    }
+
+    .floatBody {
+        padding: 0%;
+    }
+
+    .bookmark {
+        margin-left: 68%;
+        width: 32%;
+    }
+
+    .markText {
+        font-size: 2.5vmin;
+    }
+
+    .centerPage {
+        width: 64%;
+        margin-left: 4%;
+    }
+
+    .previewCell {
+        width: 48%;
+    }
+
+    .articleColumn {
+        width: 99%;
+    }
+
+    .miscellaneous {
+        width: 4%;
+    }
+}

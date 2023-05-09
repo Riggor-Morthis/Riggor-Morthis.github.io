@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Kainoo</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Kaïnoo Sàrl</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/en/index#personnal')">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/en/index#education')">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/en/index#professional')">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/en/index#identity')">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/en/index#professional')">
+                <p class="markText">Back</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">During my internship at the Swiss company Kaïnoo, my
+                    first project for them was a
+                    web app for real estate tours and videoconferencing (both at the same time). It allows real estate
+                    agents to easily show their properties, and customers to better imagine the final product than with
+                    architects' blueprints. This project was made in Unity, and used Mirror for the "multiplayer" part
+                    (the
+                    fact of having several people in the same flat) and Agora for the videoconferencing part.<br>This
+                    project was done in 3 steps. First, overall bugfixing and security
+                    improvements (since each user can create a private room, we must guarantee that only those they gave
+                    the
+                    code to can access it). Then, the creation of the "onboarding website", which is the web page you
+                    first
+                    land on, and where you can set up your equipment before going into the webGL app. Finally, I added a
+                    second scene, which would allow factory owners to visit their properties and better visualise their
+                    floor plans when they want to change them. I had to create the code necessary to host and
+                    differentiate
+                    several scenes at once.<br>For the second half of this internship, I worked on a Unity package made
+                    to create
+                    and upload asset bundles onto a centralised database. Those bundles would be made in two versions :
+                    a
+                    low definition one, made to be downloaded first to allow the user to onboard quickly, and a high
+                    definition one, to be downloaded in the background to give the user the best experience
+                    (eventually).</p>
+            </div>
+            <div class="articleColumn">
+                <object data="/pdf/Recommandation M2.pdf" class="presentationPDF" style="height: 70%;"></object>
+
+                <div style="margin-top: 3%;">
+                    <img class="linkIcon" src="/icons/website.png">
+                    <a href="https://custmeet.com/" target="_blank" class="articleLinks">visioconference website</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

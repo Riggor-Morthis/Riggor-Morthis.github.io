@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Kainoo</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Kaïnoo Sàrl</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+            
+            <div class="markBack" onclick="ChangePage('/index#professional')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Durant mon stage au sein de l'entreprise suisse Kaïnoo,
+                    mon premier projet était
+                    une application web de visite d'appartement et de visioconférence, simultanément. Elle permet aux
+                    agents
+                    immobiliers de facilement faire visiter leurs biens, et aux clients de mieux s'imaginer le produit
+                    final. Ce projet était réalisé sous Unity, et utilisait Mirror pour le "multijoueur" (le fait
+                    d'avoir
+                    plusieurs personnes dans un même appartement) et Agora pour la vidéo-communication.<br>Ce projet
+                    s'est globalement fait en 3 étapes. Premièrement, bugfixing général et
+                    amélioration de la sécurité (chaque utilisateur pouvant créer une salle privée, il faut garantir que
+                    seuls ceux invités y ont accès). Ensuite, création du site d'onboarding, qui est la page web
+                    qui vous accueille et dans laquelle vous pouvez régler vos paramètres avant de rentrer dans
+                    l'application webGL. Enfin, ajout d'une seconde scène, qui permettrait aux propriétaires d'usine de
+                    visiter leurs biens et de mieux s'imaginer leurs plans au sol lorsqu'ils veulent changer ceux-ci. Il
+                    me
+                    fallait donc créer le code nécessaire pour accueillir et différencier plusieurs scènes
+                    simultanément.<br>Durant la seconde moitié de mon stage, j'ai travaillé sur un package Unity qui
+                    permet
+                    de créer puis uploader des asset bundles à partir des assets présents dans une scène. Ces bundles
+                    sont
+                    faits en deux versions (haute et basse résolution) : la basse résolution est téléchargée en premier,
+                    ce
+                    qui permet rapidement de rentrer dans l'application, tandis que la haute résolution est téléchargée
+                    en
+                    arrière plan, puis activée au fur et à mesure.</p>
+            </div>
+            <div class="articleColumn">
+                <object data="/pdf/Recommandation M2.pdf" class="presentationPDF" style="height: 70%;"></object>
+
+                <div style="margin-top: 3%;">
+                    <img class="linkIcon" src="/icons/website.png">
+                    <a href="https://custmeet.com/" target="_blank" class="articleLinks">site de visioconférence</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

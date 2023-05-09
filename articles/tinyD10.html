@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Tiny D10</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Tiny D10</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+            
+            <div class="markBack" onclick="ChangePage('/index#personnal')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Amateur de jeu de rôle (surtout du rôle de MJ) et d'écriture de règles depuis
+                    longtemps, j'ai récemment travaillé sur le système TinyD10. Basé sur les règles du même nom écrites par
+                    Aaron Carlson, il s'agissait d'une traduction des règles en anglais qui a fini par être une expansion du contenu offert.
+                    J'avais choisi ce système de règles parce qu'il était à la fois gratuit (parfait pour le partager aux
+                    joueurs) et simple (parfait pour les novices), tout en étant facile à étendre et à complémenter.<br>D'un point de vue ludique, il s'agit de règles légères et techniquement
+                    agnostiques au genre d'univers (ou en tout cas "agnosticables" facilement), dont le fonctionnement est
+                    très classique. Alors que j'étais en pleine traduction de ce contenu, le site hébergeant ces documents a
+                    disparu d'internet, ce qui m'a permis de créer mon propre contenu et de l'intégrer directement dans ces
+                    règles. Par exemple, 4 classes et 4 races jouables sont nouvelles, et de nombreuses règles (notamment
+                    tout ce qui touche au combat) ont été revues et étoffées. Ce système est d'ailleurs actuellement utilisé depuis quelques mois pour une campagne.</p>
+            </div>
+            <div class="articleColumn">
+                <div style="margin-top: 1%;">
+                    <img class="previewGif" src="/png/tinyd10.png" alt="Le logo du jeu de rôle Tiny D10">
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/text.png">
+                    <a href="https://onedrive.live.com/?cid=83ebcc1e3abd78e1&id=83EBCC1E3ABD78E1%21141&authkey=!AFyAawax1Eqp5AM" target="_blank" class="articleLinks">livres</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

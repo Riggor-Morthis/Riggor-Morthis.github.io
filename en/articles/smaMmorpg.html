@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - SMA MMORPG</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">SMA MMORPG</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/en/index#personnal')">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/en/index#education')">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/en/index#professional')">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/en/index#identity')">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/en/index#education')">
+                <p class="markText">Back</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">A university project on the theme of AI, made in Unity.
+                    My goal was to emulate an
+                    MMORPG environment in which players are given quests to level up, and communicate with each other to
+                    maximise their experience gain while minimising their risks (they only have one life). These AIs
+                    work
+                    according to the BDI principle: they know (or think they know) their immediate environment and their
+                    quest's informations, have desires (staying alive, leveling up quickly...), and analyse these two
+                    elements to find the best course of action. Players are able to work in pairs, by "talking" to
+                    another
+                    player in the hope that they join the quest we sent them.<br>Above their heads, each player shows
+                    his life points, his current behaviour, his
+                    current quest and level, and show their group by their shirt colour.</p>
+            </div>
+            <div class="articleColumn">
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/SMZf-liBxB4"></iframe>
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/sma_mmorpg" target="_blank" class="articleLinks">repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

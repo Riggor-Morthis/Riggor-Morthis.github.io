@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Sylvain Rocland</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/windowload.js"></script>
+    <script src="/scripts/blur.js"></script>
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle">Portfolio - Sylvain Rocland</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="LockButton(this)">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="LockButton(this)">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="LockButton(this)">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="LockButton(this)">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div id="persDiv" style="display: none; flex-wrap: wrap;">
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/speedmanRally.html')">
+                    <p class="previewTitle">[JAM] SPEEDMANRALLY</p>
+                    <img class="previewGif" src="/png/speedmanrally.png" alt="Le logo du jeu SpeedmanRally">
+                    <p class="generalText">A 7-day game jam to create a game in the style of those available on the
+                        Nokia
+                        3310. This jam was mostly about creating an interesting game "despite" the strict limitations of
+                        this
+                        platform.</p>
+                    <p class="generalText">Soundbites were given by Tric and the font is courtesy of Zeh Fernando. I
+                        created
+                        everything else in this project.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/intotheDepthsofDarkkDungeon2022.html')">
+                    <p class="previewTitle">[WIP] INTO THE DEPTHS OF DARKK DUNGEON</p>
+                    <img class="previewGif" src="/gifs/DDD2022.gif"
+                        alt="Un gif démontrant le gameplay de la nouvelle version d'into the Depths of Darkk Dungeon">
+                    <p class="generalText">Back on this prototype, I intend to do something interesting with this
+                        concept now
+                        that I can spend more than 5 days on it.</p>
+                    <p class="generalText">>I made everything in this project but the audio (credits will be published
+                        once the
+                        repo goes public).</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/fake3DWeapon.html')">
+                    <p class="previewTitle">FAKE 3D WEAPON</p>
+                    <img class="previewGif" src="/gifs/94looking.gif"
+                        alt="Un gif démontrant l'impression de mouvement et de profondeurs obtenues en utilisant que des sprites"">
+                    <p class=" generalText">A prototype to experiment with the suggestion of depth and perspective in
+                    an FPS,
+                    without using anything 3D.</p>
+                    <p class="generalText">I made this entire prototype</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/tinyD10.html')">
+                    <p class="previewTitle">TINY D10</p>
+                    <img class="previewGif" src="/png/tinyd10.png" alt="Le logo du jeu de rôle Tiny D10">
+                    <p class="generalText">A simple and lightweight TTRPG, translated and hacked by myself.</p>
+                    <p class="generalText">Translated Aaron Carlson's rules from english, then designed the game's
+                        world.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/paletteCreator.html')">
+                    <p class="previewTitle">PALETTE CREATOR</p>
+                    <img class="previewGif" src="/gifs/palettecreator.gif"
+                        alt="Un gif démontrant l'interface du logiciel">
+                    <p class="generalText">A software made in Python to create minimalist color palettes for pixel-art.
+                    </p>
+                    <p class="generalText">Made entirely by myself.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/intotheDepthsofDungeonDarkk.html')">
+                    <p class="previewTitle">INTO THE DEPTHS OF DUNGEON DARKK</p>
+                    <img class="previewGif" src="/gifs/depthsofdungeondarkk.gif"
+                        alt="Un gif démontrant le gameplay 3D de la seconde version d'into the Depths of Dungeon Darkk">
+                    <p class="generalText">Not just a 3D version of "into the Depths of Darkk Dungeon", this project
+                        (also
+                        made in 5 days in Unity) includes many improvements suggested by the testers.</p>
+                    <p class="generalText">I created everything in this project, except for music and sound effects.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/runicGolems.html')">
+                    <p class="previewTitle">[JAM] RUNIC GOLEMS</p>
+                    <img class="previewGif" src="/png/runicgolem.png" alt="Un screenshot issu du jeu Runic Golems">
+                    <p class="generalText">A 2021 Global Game Jam game, as well as my first experience with Unreal
+                        Engine.</p>
+                    <p class="generalText">I helped with game design, AI and particles.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/intotheDepthsofDarkkDungeon.html')">
+                    <p class="previewTitle">INTO THE DEPTHS OF DARK DUNGEON</p>
+                    <img class="previewGif" src="/gifs/depthsdarkdungeon.gif"
+                        alt="Un gif démontrant le gameplay de la première version d'into the Depths of Darkk Dungeon">
+                    <p class="generalText">Made for a technical assessment test, it's a 2D dungeon crawler for mobile
+                        platforms made in Unity in only 5 days.</p>
+                    <p class="generalText">I created everything in this project, except for music and sound effects.</p>
+                </div>
+            </div>
+
+            <div id="univDiv" style="display: none; flex-wrap: wrap;">
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/dreash.html')">
+                    <p class="previewTitle">DREASH</p>
+                    <img class="previewGif" src="/gifs/dreash.gif" alt="Un exemple des chemins crees avec Dreash">
+                    <p class="generalText">A group project for our Augmented Reality course, it's made with Unity and
+                        allows
+                        its user to build then save the board of a board game.</p>
+                    <p class="generalText">I created everything in this project.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/smaMmorpg.html')">
+                    <p class="previewTitle">SMA MMORPG</p>
+                    <img class="previewGif" src="/gifs/smammorpg.gif"
+                        alt="Des humains interagissant avec leur environnement">
+                    <p class="generalText">A group project for our AI course made with Unity, it simulates the decision
+                        making of human players inside of an MMORPG.</p>
+                    <p class="generalText">I created everything in this project.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/unnamedSharkGame.html')">
+                    <p class="previewTitle">UNNAMED SHARK GAME</p>
+                    <img class="previewGif" src="/gifs/unnamedsharkgame.gif"
+                        alt="Le gameplay final d'unnamed shark game">
+                    <p class="generalText">A group project about writing a GDD and creating the corresponding game (in
+                        Unity).</p>
+                    <p class="generalText">I wrote the GDD, created all the code, made all the levels, did the sound
+                        design as
+                        well as the interface.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/projectMagnetism.html')">
+                    <p class="previewTitle">PROJECT MAGNETISM</p>
+                    <img class="previewGif" src="/gifs/projetmagnetism.gif"
+                        alt="Le gameplay final d'unnamed shark game">
+                    <p class="generalText">An action-platformer made with Unity.</p>
+                    <p class="generalText">I coded everything related to the player character and the level, I drew all
+                        the graphics and made the shaders, and I did the level design.</p>
+                </div>
+            </div>
+
+            <div id="profDiv" style="display: none; flex-wrap: wrap;">
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/kainoo.html')">
+                    <p class="previewTitle">KAÏNOO SARL</p>
+                    <img class="previewGif" src="/png/kainoo.png" alt="Le logo de l'entreprise suisse Kainoo">
+                    <p class="generalText">The internship for the 2nd year of my master's degree, within a swiss company
+                        specialized in 3D technologies.</p>
+                    <p class="generalText">I made a visionconference web app (Unity), and a Unity package to facilitate
+                        the
+                        creation and upload of asset bundles.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/en/articles/deLaroussilhe.html')">
+                    <p class="previewTitle">DELAROUSSILHE INFORMATIQUE</p>
+                    <img class="previewGif" src="/png/deLaroussilhe.png"
+                        alt="Le logo de l'entreprise française DeLaroussilhe Informatique">
+                    <p class="generalText">The internship for the 3rd year of my bachelor's degree, within a french
+                        company
+                        specialised in publishing companies' software.</p>
+                    <p class="generalText">I made a web app (.NET) to handle adress book and activity log duties.</p>
+                </div>
+            </div>
+
+            <div id="suisDiv" style="display: none; flex-wrap: wrap;">
+                <p class="presentationText">
+                    Sylvain Rocland, former student in computer science and recent graduate (master "Imagine" at
+                    University of Montpellier).
+                    <br>I am someone curious and adaptable, who was regularly complimented on my autonomy and my rigor.
+                </p>
+                <p class="presentationText">
+                    As a lifelong video game fan, I pursued a 5-year degree in computer science to be a part of the
+                    industry. During those years I got a taste for the process, from the initial ideas to the final
+                    tests.
+                    <br>Of a creative nature, I am passionate about role-playing games (especially as a rule writer and
+                    a game master), but also by car mechanics, which satisfies my taste for problem solving.
+                </p>
+
+                <object data="/pdf/CV - en.pdf" class="presentationPDF"></object>
+                <object data="/pdf/Diplome Master.pdf" class="presentationPDF"></object>
+                <object data="/pdf/Recommandation M2.pdf" class="presentationPDF"></object>
+                <object data="/pdf/Recommandation L3.pdf" class="presentationPDF"></object>
+            </div>
+        </div>
+        <div class="miscellaneous">
+
+        </div>
+    </div>
+</body>
+
+</html>

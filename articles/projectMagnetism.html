@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Project Magnetism</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Project Magnetism</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/index#education')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Un jeu réalisé sous Unity dans le cadre d'un travail
+                    universitaire en groupe sur 2 mois. Notre but était de faire un action-plateformer, à la Metroid,
+                    basé sur l'exploitation des champs magnétiques de l'environnement et des personnages. Par exemple,
+                    vous êtes repoussé par les aimants de la même polarité que vous, et attiré par les polarités
+                    opposées, ce qui vous force à faire les bons choix lorsque vous faites de la plateforme.<br>J'ai
+                    fait plusieurs tâches différentes sur ce projet : j'ai fait tout le gameplay du personnage
+                    principal, tous les graphismes sauf les ennemis et les particules, le shader utilisé pour dénoter la
+                    polarité du personnage, le fonctionnement des aimants, le comportement de la caméra, et tout le
+                    level design.<br>NB : suite à une erreur dans les sauvegardes, la dernière version du projet est
+                    perdue, et le repo n'est pas représentatif de la version finale. Le diporama fourni est surtout là
+                    pour expliquer nos intentions derrière le projet, grâce aux commentaires présentateurs.</p>
+            </div>
+            <div class="articleColumn">
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/eo23GbC6BT8"></iframe>
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/project_magnetism" target="_blank" class="articleLinks">repo</a>
+                </div>
+
+                <div style="margin-top: 7%; clear: both;">
+                    <img class="linkIcon" src="/icons/text.png">
+                    <a href="https://docs.google.com/presentation/d/1tQyeaUrZCj4G9ek08oFfR9ndqdAWng0TjHQd62YNvcQ/edit#slide=id.p1" target="_blank" class="articleLinks">diapo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - into the Depths of Darkk Dungeon 2022</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">[WIP] into the Depths of Darkk Dungeon</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/en/index#personnal')">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/en/index#education')">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/en/index#professional')">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/en/index#identity')">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+            
+            <div class="markBack" onclick="ChangePage('/en/index#personnal')">
+                <p class="markText">Back</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">The follow-up to the two previous projects. I'm rather satisfied with my gameplay
+                    loop and the basic principle of DDD (how you're aware of the monsters' next move and you must plan
+                    around it), but my previous iterations didn't go too deeply into it since they were made in 5 days. So,
+                    I started working on this project again, now that time is not as much a factor.<br>You're still a medieval fantasy hero, living in a kingdom invaded by the
+                    Darkkness. You'll to go into sinister and malevolant dungeons to defeat the monsters and free your
+                    homeland.</p>
+            </div>
+            <div class="articleColumn">
+                <div style="margin-top: 1%;">
+                    <img class="previewGif" src="/gifs/DDD2022.gif"
+                        alt="Un gif démontrant le gameplay de la nouvelle version d'into the Depths of Darkk Dungeon">
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/text.png">
+                    <a href="https://allfeaturesnobugs.blogspot.com/2023/01/into-depths-of-darkk-dungeon-chapter-1.html"
+                        target="_blank" class="articleLinks">article #1 : introduction</a>
+                </div>
+
+                <div style="margin-top: 3%; clear:both;">
+                    <img class="linkIcon" src="/icons/text.png">
+                    <a href="https://allfeaturesnobugs.blogspot.com/2023/01/into-depths-of-darkk-dungeon-chapter-1_10.html"
+                        target="_blank" class="articleLinks">article #2 : android optimization</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>

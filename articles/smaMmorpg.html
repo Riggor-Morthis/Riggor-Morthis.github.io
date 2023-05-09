@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - SMA MMORPG</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">SMA MMORPG</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/index#education')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Un projet universitaire sur le thème de l'IA, fait sous
+                    Unity. Mon but était de simuler un environnement de MMORPG dans lesquels les joueurs reçoivent des
+                    quêtes pour monter en niveau, et communiquent entre eux pour maximiser leur gain d'expérience tout
+                    en minimisant les riques : ils n'ont qu'une seule vie. Ces IAs fonctionnent selon le principe BDI
+                    : elles connaissent (ou croient connaître) leur environnement immédiat et les informations de leur
+                    quête, possèdent des envies (rester en vie, monter en niveau rapidement...), et analysent ces deux
+                    éléments pour trouver la meilleure marche à suivre. Les joueurs sont ainsi capables de former des
+                    paires, en "adressant la parole" à un autre joueur dans l'espoir qu'il accepte de rejoindre la
+                    quête qu'on vient de lui proposer.<br>D'un point de vue interface, chaque joueur montre ses points
+                    de vie, son comportement actuel, sa quête en cours et son niveau (au dessus de sa tête), ainsi que
+                    son groupe (couleur de T-shirt).</p>
+            </div>
+            <div class="articleColumn">
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/SMZf-liBxB4"></iframe>
+                </div>
+
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/sma_mmorpg" target="_blank" class="articleLinks">repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="miscellaneous">
+    </div>
+    </div>
+</body>
+
+</html>
