@@ -57,6 +57,8 @@ a:active {
     background-attachment: fixed;
     background-size: 100% 100%;
     position: fixed;
+    top: 0px;
+    left: 0%;
     z-index: 1;
     transition: none;
 }
@@ -70,9 +72,11 @@ a:active {
     background-attachment: fixed;
     background-size: 100% 100%;
     position: fixed;
+    top: 0px;
+    left: -50%;
     z-index: 1;
-    transition-property: width, transform;
-    transition-duration: 2s;
+    transition-property: width, transform, left;
+    transition-duration: 3s;
     transition-timing-function: ease-in-out;
 }
 
