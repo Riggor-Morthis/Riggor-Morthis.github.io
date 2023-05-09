@@ -34,7 +34,7 @@ function PickSelectedDiv() {
             break;
         case "#identity": ShowIdentity();
             break;
-        default: ShowPersonnal();
+        default: ShowCover();
     }
 }
 
