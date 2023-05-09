@@ -89,7 +89,7 @@ a:active {
     font-family: mainTitles;
     font-size: 8em;
 }
-.bookTitle{
+.hiddenCover .pageTitle{
     margin-top: 10%;
 }
 
@@ -291,7 +291,7 @@ a:active {
     .pageTitle {
         font-size: 6.5em;
     }
-    .bookTitle{
+    .hiddenCover .pageTitle{
         margin-top: 35%;
     }
 
