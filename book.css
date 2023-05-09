@@ -109,11 +109,10 @@ a:active {
 }
 
 .chapterText {
-    padding-top: .15%;
-    padding-bottom: .15%;
+    padding-top: 3.5%;
+    margin: 0%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0%;
     text-align: center;
     color: rgb(20, 0, 0);
     width: 75%;
