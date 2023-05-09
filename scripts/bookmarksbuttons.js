@@ -7,6 +7,7 @@ var personnalDiv;
 var educationDiv;
 var experienceDiv;
 var identityDiv;
+var coverDiv;
 
 function FindAllButtons() {
     personnalButton = document.getElementById("persButton");
@@ -20,6 +21,7 @@ function FindAllDivs() {
     educationDiv = document.getElementById("univDiv");
     experienceDiv = document.getElementById("profDiv");
     identityDiv = document.getElementById("suisDiv");
+    coverDiv = document.getElementById("coverDiv");
 }
 
 function PickSelectedDiv() {
@@ -69,6 +71,11 @@ function ShowIdentity() {
     identityButton.className = "markClicked";
     identityDiv.style.display = "flex";
     window.location.hash = "identity";
+}
+
+function ShowCover(){
+    if(window.location.pathname != '/') ShowPersonnal();
+    else coverDiv.classList.add("cover");
 }
 
 function HideAll() {
