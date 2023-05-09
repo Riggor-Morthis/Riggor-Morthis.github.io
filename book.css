@@ -71,7 +71,7 @@ a:active {
     background-size: 100% 100%;
     position: fixed;
     top: 0px;
-    left: -80%;
+    left: -65%;
     z-index: 1;
     transition-property: transform, left;
     transition-duration: 3s;
