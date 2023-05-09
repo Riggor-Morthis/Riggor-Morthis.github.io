@@ -98,9 +98,10 @@ a:active {
 
 .chapterMarks {
     width: 25%;
+    height: 10%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     background-image: url('/graphics/chaptersPlate.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -109,7 +110,7 @@ a:active {
 }
 
 .chapterText {
-    padding-top: 3.5%;
+    padding-top: 4.5%;
     margin: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -117,7 +118,7 @@ a:active {
     color: rgb(20, 0, 0);
     width: 75%;
     font-family: mainTitles;
-    font-size: 4vmin;
+    font-size: 5vmin;
 }
 
 .floatBody {
