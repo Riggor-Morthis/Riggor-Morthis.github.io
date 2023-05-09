@@ -75,7 +75,7 @@ function ShowIdentity() {
 
 function ShowCover(){
     if(window.location.pathname != '/') ShowPersonnal();
-    else coverDiv.classList.add(", cover");
+    else coverDiv.classList.add("cover");
 }
 
 function HideAll() {
