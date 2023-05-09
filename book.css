@@ -71,7 +71,7 @@ a:active {
     background-size: 100% 100%;
     position: fixed;
     top: 0px;
-    left: -50%;
+    left: -80%;
     z-index: 1;
     transition-property: transform, left;
     transition-duration: 3s;
@@ -118,7 +118,7 @@ a:active {
     color: rgb(20, 0, 0);
     width: 75%;
     font-family: mainTitles;
-    font-size: 5vmin;
+    font-size: 4vmin;
 }
 
 .floatBody {
