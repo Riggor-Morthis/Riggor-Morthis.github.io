@@ -79,6 +79,8 @@ function ShowCover(){
 }
 
 function HideAll() {
+    if(coverDiv.classList.length != 1) coverDiv.className = ('hiddenCover');
+
     personnalButton.className = "markButton";
     personnalDiv.style.display = "none";
     educationButton.className = "markButton";
