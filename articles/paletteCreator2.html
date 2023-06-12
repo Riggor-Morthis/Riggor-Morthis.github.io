@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Palette Creator 2</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Palette Creator 2</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/index#personnal')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Comme promis, j'ai retravaillé le logiciel de création de palette (Palette Creator). Je l'ai refait entièrement en html/javascript, pour plusieurs raisons. Premièrement, j'aime
+                    bien utiliser ces langages, et j'ai donc profité de cette une bonne occasion de m'entraîner dessus.<br>Deuxièmement,
+                    j'avais envie de faire un logiciel intégralement en ligne pour qu'il soit plus rapidement
+                    accessible, et plus facilement partageable.<br>Enfin, j'ai de nombreuses idées pour continuer à
+                    étendre et perfectionner les capacités de ce logiciel, et je trouve que html/javascript/css
+                    est bien plus futureproof que l'architecture en python utilisée précédemment.</p>
+            </div>
+            <div class="articleColumn">
+                <iframe frameborder="0"
+                    src="https://itch.io/embed/2114642?border_width=0&amp;bg_color=c0c4c8&amp;fg_color=000000&amp;link_color=0015a4&amp;border_color=398b8b"
+                    width="550" height="165"><a href="https://riggormorthis.itch.io/palette-creator-2">Palette Creator 2
+                        by RiggorMorthis</a></iframe>
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/PaletteCreator2" target="_blank"
+                        class="articleLinks">repo</a>
+                </div>
+
+                <div style="margin-top: 7%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/palette-creator-2" target="_blank"
+                        class="articleLinks">itchio</a>
+                </div>
+            </div>
+        </div>
+        <div class="miscellaneous">
+        </div>
+    </div>
+</body>
+
+</html>

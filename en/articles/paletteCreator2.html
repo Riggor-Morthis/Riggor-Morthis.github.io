@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - Palette Creator 2</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">Palette Creator 2</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/en/index#personnal')">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/en/index#education')">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/en/index#professional')">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/en/index#identity')">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/en/index#personnal')">
+                <p class="markText">Back</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">Back to "Palette Creator", as promised, but now
+                    entirely in html/javascript, for several reasons. Firstly, I like programming in those languages, so
+                    I took this opportunity to train with them.<br>Secondly, by making this software browser based, it's
+                    both easier to use and easier to share to other people.<br>Lastly, I've got quite a few ideas on how
+                    to improve and expand this software, and html/javascript/css is much more futureproof than the pure
+                    python framework I used previously.</p>
+            </div>
+            <div class="articleColumn">
+                <iframe frameborder="0"
+                    src="https://itch.io/embed/2114642?border_width=0&amp;bg_color=c0c4c8&amp;fg_color=000000&amp;link_color=0015a4&amp;border_color=398b8b"
+                    width="550" height="165"><a href="https://riggormorthis.itch.io/palette-creator-2">Palette Creator 2
+                        by RiggorMorthis</a></iframe>
+                <div style="margin-top: 7%;">
+                    <img class="linkIcon" src="/icons/git.png">
+                    <a href="https://github.com/Riggor-Morthis/PaletteCreator2" target="_blank"
+                        class="articleLinks">repo</a>
+                </div>
+
+                <div style="margin-top: 7%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/palette-creator-2" target="_blank"
+                        class="articleLinks">itchio</a>
+                </div>
+            </div>
+        </div>
+        <div class="miscellaneous">
+        </div>
+    </div>
+</body>
+
+</html>
