@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - One Page RPG</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">One Page RPG</p>
+    <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/en/index#personnal')">
+                    <p class="markText">Personal projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/en/index#education')">
+                    <p class="markText">School projects</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/en/index#professional')">
+                    <p class="markText">Professional experience</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/en/index#identity')">
+                    <p class="markText">Who am I ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/en/index#personnal')">
+                <p class="markText">Back</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em; margin-bottom: 15%;">I took part in this jam because of
+                    both my passion for TTRPGs and my passion for technical constraints. The goal was to create a TTRPG
+                    that would fit on a single sheet of paper. Furthermore, I also tried to question our relationship
+                    with randomness in TTRPGs.</br>
+                    In "A Grand Card Heist", players are dealt a hand like in a card game, and are then free to bluff
+                    about what they have to try and be the only burglar left to get the loot. Although this game
+                    incorporates a notion of randomness, it gives the players a lot of control as it allows them to
+                    distribute their "resources" as they please, as well as being in a competition against one
+                    another.</br>
+                    In "The Witches' Brew", players don't roll their dice, but must instead flick it towards a central
+                    piece, as in a game of "pétanque". Then, the distance between this piece and their dice dictates
+                    their degree of success. So, this RPG doesn't use randomness at all, but instead the players rely on
+                    their own dice-throwing skill.</br>
+                    Finally, "Band Of Critters" resembles a classic TTRPG, and my aim was to fit as much information as
+                    possible into this single sheet of paper. This way, a table can play out an entire campaign based
+                    solely on rules that can be read in 5 minutes: the very essence of this jam, which I've tried to
+                    push to the limit.</p>
+            </div>
+            <div class="articleColumn">
+                <div style="margin-top: 1%; margin-left: 5%; width: 50%;">
+                    <img class="previewGif" src="/png/Articles/CoverImageAGCH.png" alt="Le logo de A Grand Card Heist">
+                </div>
+                <div style="margin-top: 1%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/a-grand-card-heist" target="_blank"
+                        class="articleLinks">itchio</a>
+                </div>
+
+                <div style="margin-top: 12%; margin-left: 5%; width: 50%;">
+                    <img class="previewGif" src="/png/Articles/CoverImageTWB.png" alt="Le logo de A Grand Card Heist">
+                </div>
+                <div style="margin-top: 1%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/the-witches-brew" target="_blank"
+                        class="articleLinks">itchio</a>
+                </div>
+
+                <div style="margin-top: 12%; margin-left: 5%; width: 50%;">
+                    <img class="previewGif" src="/png/Articles/CoverImageBOC.png" alt="Le logo de A Grand Card Heist">
+                </div>
+                <div style="margin-top: 1%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/band-of-critters" target="_blank"
+                        class="articleLinks">itchio</a>
+                </div>
+            </div>
+        </div>
+        <div class="miscellaneous">
+        </div>
+    </div>
+</body>
+
+</html>
