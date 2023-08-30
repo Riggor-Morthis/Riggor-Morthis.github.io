@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio - One Page RPG</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/book.css" />
+
+    <script src="/scripts/bookmarksbuttons.js"></script>
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/changepage.js"></script>
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p class="pageTitle" style="font-size: 6em;">One Page RPG</p>
+    <img class="languageIcon" src="/icons/united-states-of-america.png" alt="Change language to English"
+        onclick="ChangeLanguage('EN')">
+
+    <div class="floatBody">
+        <div class="bookmark">
+            <div class="markContainer">
+                <div class="markButton" id="persButton" onclick="ChangePage('/index#personnal')">
+                    <p class="markText">Projets personnels</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="univButton" onclick="ChangePage('/index#education')">
+                    <p class="markText">Projets universitaires</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="profButton" onclick="ChangePage('/index#professional')">
+                    <p class="markText">Experience professionnelle</p>
+                </div>
+            </div>
+
+            <div class="markContainer">
+                <div class="markButton" id="suisButon" onclick="ChangePage('/index#identity')">
+                    <p class="markText">Qui suis-je ?</p>
+                </div>
+            </div>
+
+            <div class="markBack" onclick="ChangePage('/index#personnal')">
+                <p class="markText">Retour</p>
+            </div>
+        </div>
+        <div class="centerPage">
+            <div class="articleColumn">
+                <p class="generalText" style="font-size: 1.6em;">J'ai participé à cette jam à la fois à cause de ma
+                    passion pour les TTRPG, et de ma passion pour les contraintes techniques. Le but était donc de créer
+                    un TTRPG contenu entièrement sur une seule feuille de papier. En plus de respecter ces contraintes,
+                    j'ai aussi essayé de questionner notre rapport à l'aléatoire dans les TTRPG.</br>Dans "A Grand Card
+                    Heist", les joueurs reçoivent une main comme dans un jeu de cartes, et sont ensuite libre de bluffer
+                    sur ce qu'ils ont pour essayer d'être le seul cambrioleur à récupérer le butin. Même si ce jeu
+                    intègre une notion d'aléatoire, il donne un grand contrôle aux joueurs puisqu'il leur permet de
+                    répartir leurs "ressources" comme ils l'entendent, en plus d'être en compétition avec les autres
+                    joueurs.</br>Dans "The Witches' Brew", les joueurs ne lancent pas les dés, mais doivent à la place
+                    les envoyer aussi proche que possible d'un pion central, comme dans une partie de pétanque. Par
+                    conséquent, la distance entre ce pion et leur dé dicte la réussite de leurs actions. Ce RPG
+                    n'utilise donc pas du tout le hasard, mais plutôt l'adresse des joueurs avec leurs dés.</br>Enfin,
+                    "Band Of Critters" ressemble à un TTRPG classique, et mon but était d'intégrer autant d'informations
+                    que possible dans l'espace imparti (autant pour les joueurs que le MJ), afin qu'une tablée puisse
+                    jouer toute une campagne en se basant uniquement sur une feuille de papier qui peut être lue en 5
+                    minutes. L'essence même de cette jam, que j'ai essayé de pousser à son paroxisme.</p>
+            </div>
+            <div class="articleColumn">
+                <div style="margin-top: 1%; margin-left: 5%; width: 50%;">
+                    <img class="previewGif" src="/png/Articles/CoverImageAGCH.png" alt="Le logo de A Grand Card Heist">
+                </div>
+                <div style="margin-top: 1%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/a-grand-card-heist" target="_blank"
+                        class="articleLinks">itchio</a>
+                </div>
+
+                <div style="margin-top: 12%; margin-left: 5%; width: 50%;">
+                    <img class="previewGif" src="/png/Articles/CoverImageTWB.png" alt="Le logo de A Grand Card Heist">
+                </div>
+                <div style="margin-top: 1%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/the-witches-brew" target="_blank"
+                        class="articleLinks">itchio</a>
+                </div>
+
+                <div style="margin-top: 12%; margin-left: 5%; width: 50%;">
+                    <img class="previewGif" src="/png/Articles/CoverImageBOC.png" alt="Le logo de A Grand Card Heist">
+                </div>
+                <div style="margin-top: 1%; clear: both;">
+                    <img class="linkIcon" src="/icons/itchio.png">
+                    <a href="https://riggormorthis.itch.io/band-of-critters" target="_blank"
+                        class="articleLinks">itchio</a>
+                </div>
+            </div>
+        </div>
+        <div class="miscellaneous">
+        </div>
+    </div>
+</body>
+
+</html>
