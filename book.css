@@ -121,7 +121,6 @@ a:active {
 }
 
 .chapterText {
-    padding-top: 4.5%;
     margin: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -325,7 +324,7 @@ a:active {
     width: 3%;
     float: right;
     cursor: pointer;
-    margin-top: -10%;
+    margin-top: -8%;
     margin-right: 3%;
 }
 
