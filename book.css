@@ -1,16 +1,16 @@
 @font-face {
     font-family: mainTitles;
-    src: url(/fonts/EnchantedLand.otf) format("opentype");
+    src: url(/fonts/ROLNER.otf) format("opentype");
 }
 
 @font-face {
     font-family: subTitles;
-    src: url(/fonts/PumpkinCheesecake.otf) format("opentype");
+    src: url(/fonts/ROLNER.otf) format("opentype");
 }
 
 @font-face {
     font-family: mainBody;
-    src: url(/fonts/CoffeeAndCrafts.ttf);
+    src: url(/fonts/FuturaLight.otf) format("opentype");
 }
 
 body {
@@ -27,8 +27,8 @@ a {
     margin-left: 3%;
     margin-bottom: auto;
     margin-top: auto;
-    font-family: subTitles;
-    font-size: 1.7em;
+    font-family: mainBody;
+    font-size: 1.3em;
     text-decoration: underline;
 }
 
@@ -90,7 +90,7 @@ a:active {
     text-align: center;
     color: rgb(15, 0, 0);
     font-family: mainTitles;
-    font-size: 8em;
+    font-size: 5em;
 }
 
 .bookTitle {
@@ -100,13 +100,10 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: rgb(250, 215, 100);
-    text-shadow: .5% .5% rgb(240, 170, 45),
-    .5% -.5% rgb(240, 170, 45),
-    -.5% .5% rgb(240, 170, 45),
-    -.5% -.5% rgb(240, 170, 45);
+    color: rgb(220, 180, 70);
+    text-shadow: 1px 1px #b4781e;
     font-family: mainTitles;
-    font-size: 8em;
+    font-size: 5em;
 }
 
 .chapterMarks {
@@ -131,7 +128,7 @@ a:active {
     color: rgb(15, 0, 0);
     width: 75%;
     font-family: mainTitles;
-    font-size: 4vmin;
+    font-size: 2.4vmin;
 }
 
 .floatBody {
@@ -193,8 +190,8 @@ a:active {
 }
 
 .markText {
-    padding-top: .15%;
-    padding-bottom: .15%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     margin-left: 20%;
     margin-top: 0%;
     margin-bottom: 1%;
@@ -202,7 +199,7 @@ a:active {
     color: rgb(15, 0, 0);
     width: 75%;
     font-family: mainTitles;
-    font-size: 4vmin;
+    font-size: 2.4vmin;
 }
 
 .centerPage {
@@ -239,7 +236,7 @@ a:active {
     margin-right: auto;
     color: rgb(0, 0, 100);
     font-family: subTitles;
-    font-size: 2.5em;
+    font-size: 1.7em;
     text-decoration: underline;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -257,7 +254,7 @@ a:active {
     padding: .1%;
     color: rgb(15, 0, 0);
     font-family: mainBody;
-    font-size: 1.25em;
+    font-size: 1.1em;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -269,7 +266,7 @@ a:active {
     padding-right: 1%;
     color: rgb(15, 0, 0);
     font-family: mainBody;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -330,7 +327,10 @@ a:active {
 
 @media screen and (max-aspect-ratio : 1/1) {
     .pageTitle {
-        font-size: 6.5em;
+        font-size: 4em;
+    }
+    .bookTitle{
+        font-size: 4em;
     }
     .hiddenCover .pageTitle{
         margin-top: 35%;
@@ -349,7 +349,7 @@ a:active {
     }
 
     .markText {
-        font-size: 2.5vmin;
+        font-size: 1vmin;
     }
 
     .centerPage {
