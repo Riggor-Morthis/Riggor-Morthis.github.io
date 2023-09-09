@@ -23,10 +23,6 @@
             <p class="chapterText">Projets personnels</p>
         </div>
 
-        <div class="chapterMarks" onclick="ShowEducation()">
-            <p class="chapterText">Projets universitaires</p>
-        </div>
-
         <div class="chapterMarks" onclick="ShowProfessional()">
             <p class="chapterText">Experience professionnelle</p>
         </div>
@@ -45,12 +41,6 @@
             <div class="markContainer">
                 <div class="markButton" id="persButton" onclick="LockButton(this)">
                     <p class="markText">Projets personnels</p>
-                </div>
-            </div>
-
-            <div class="markContainer">
-                <div class="markButton" id="univButton" onclick="LockButton(this)">
-                    <p class="markText">Projets universitaires</p>
                 </div>
             </div>
 
@@ -113,6 +103,14 @@
                 </div>
 
                 <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/articles/dreash.html')">
+                    <p class="previewTitle">DREASH</p>
+                    <img class="previewGif" src="/gifs/dreash.gif" alt="Un exemple des chemins crees avec Dreash">
+                    <p class="generalText">Un projet d'AR créé sous Unity, il permet d'assembler puis de sauvegarder un
+                        plateau de jeu de société.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
                     onclick="ChangePage('/articles/tinyD10.html')">
                     <p class="previewTitle">TINY D10</p>
                     <img class="previewGif" src="/png/tinyd10.png" alt="Le logo du jeu de rôle Tiny D10">
@@ -126,6 +124,15 @@
                         alt="Un gif démontrant l'interface du logiciel">
                     <p class="generalText">Un logiciel codé en Python permettant de créer des palettes de couleur
                         minimalistes destinées au pixel-art.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/articles/smaMmorpg.html')">
+                    <p class="previewTitle">SMA MMORPG</p>
+                    <img class="previewGif" src="/gifs/smammorpg.gif"
+                        alt="Des humains interagissant avec leur environnement">
+                    <p class="generalText">Un projet d'IA fait sous Unity, où on simule les décisions de joueurs humains
+                        dans un environnement de mmorpg.</p>
                 </div>
 
                 <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
@@ -149,41 +156,21 @@
                 </div>
 
                 <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
-                    onclick="ChangePage('/articles/intotheDepthsofDarkkDungeon.html')">
-                    <p class="previewTitle">INTO THE DEPTHS OF DARK DUNGEON</p>
-                    <img class="previewGif" src="/gifs/depthsdarkdungeon.gif"
-                        alt="Un gif démontrant le gameplay de la première version d'into the Depths of Darkk Dungeon">
-                    <p class="generalText">Réalisé pour un test technique, il s'agit d'un dungeon crawler destiné
-                        aux plateformes mobiles dévéloppé en seulement 5 jours.</p>
-                </div>
-            </div>
-
-            <div id="univDiv" style="display: none; flex-wrap: wrap;">
-                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
-                    onclick="ChangePage('/articles/dreash.html')">
-                    <p class="previewTitle">DREASH</p>
-                    <img class="previewGif" src="/gifs/dreash.gif" alt="Un exemple des chemins crees avec Dreash">
-                    <p class="generalText">Un projet d'AR créé sous Unity, il permet d'assembler puis de sauvegarder un
-                        plateau de jeu de société.</p>
-                </div>
-
-                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
-                    onclick="ChangePage('/articles/smaMmorpg.html')">
-                    <p class="previewTitle">SMA MMORPG</p>
-                    <img class="previewGif" src="/gifs/smammorpg.gif"
-                        alt="Des humains interagissant avec leur environnement">
-                    <p class="generalText">Un projet d'IA fait sous Unity, où on simule les décisions de joueurs humains
-                        dans
-                        un environnement de mmorpg.</p>
-                </div>
-
-                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
                     onclick="ChangePage('/articles/unnamedSharkGame.html')">
                     <p class="previewTitle">UNNAMED SHARK GAME</p>
                     <img class="previewGif" src="/gifs/unnamedsharkgame.gif"
                         alt="Le gameplay final d'unnamed shark game">
                     <p class="generalText">Un projet sous Unity où nous devions rédiger un GDD puis créer le jeu
                         correspondant.</p>
+                </div>
+
+                <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"
+                    onclick="ChangePage('/articles/intotheDepthsofDarkkDungeon.html')">
+                    <p class="previewTitle">INTO THE DEPTHS OF DARK DUNGEON</p>
+                    <img class="previewGif" src="/gifs/depthsdarkdungeon.gif"
+                        alt="Un gif démontrant le gameplay de la première version d'into the Depths of Darkk Dungeon">
+                    <p class="generalText">Réalisé pour un test technique, il s'agit d'un dungeon crawler destiné
+                        aux plateformes mobiles dévéloppé en seulement 5 jours.</p>
                 </div>
 
                 <div class="previewCell" onmouseover="BlurOn(this)" onmouseleave="BlurOff()"

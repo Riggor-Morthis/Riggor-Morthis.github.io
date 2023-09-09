@@ -18,7 +18,7 @@ function FindAllButtons() {
 
 function FindAllDivs() {
     personnalDiv = document.getElementById("persDiv");
-    educationDiv = document.getElementById("univDiv");
+    //educationDiv = document.getElementById("univDiv");
     experienceDiv = document.getElementById("profDiv");
     identityDiv = document.getElementById("suisDiv");
     coverDiv = document.getElementById("coverDiv");
@@ -83,8 +83,8 @@ function HideAll() {
 
     personnalButton.className = "markButton";
     personnalDiv.style.display = "none";
-    educationButton.className = "markButton";
-    educationDiv.style.display = "none";
+    //educationButton.className = "markButton";
+    //educationDiv.style.display = "none";
     experienceButton.className = "markButton";
     experienceDiv.style.display = "none";
     identityButton.className = "markButton";
