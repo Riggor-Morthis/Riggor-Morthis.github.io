@@ -28,8 +28,6 @@ function PickSelectedDiv() {
     switch (window.location.hash) {
         case "#personnal": ShowPersonnal();
             break;
-        case "#education": ShowEducation();
-            break;
         case "#professional": ShowProfessional();
             break;
         case "#identity": ShowIdentity();
@@ -71,11 +69,6 @@ function ShowIdentity() {
     identityButton.className = "markClicked";
     identityDiv.style.display = "flex";
     window.location.hash = "identity";
-}
-
-function ShowCover() {
-    if (window.location.pathname != '/') ShowPersonnal();
-    else coverDiv.className = ('hiddenCover, cover');
 }
 
 function HideAll() {
