@@ -13,5 +13,5 @@ function ReturnToCover(){
     HideAll();
 
     window.location.hash = "";
-    coverDiv.className = ('hiddenCover, cover');
+    coverDiv.className = ('hiddenCover, shownCover');
 }
