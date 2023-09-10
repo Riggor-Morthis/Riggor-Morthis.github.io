@@ -11,12 +11,30 @@
     <script src="/scripts/bookmarksbuttons.js"></script>
     <script src="/scripts/language.js"></script>
     <script src="/scripts/changepage.js"></script>
+    <script src="/scripts/cover.js"></script>
 
     <meta charset="UTF-8">
 </head>
 
 <body>
+    <div class="hiddenCover" id="coverDiv">
+        <p class="bookTitle">Portfolio - Sylvain Rocland</p>
+
+        <div class="chapterMarks" onclick="ShowPersonnal()">
+            <p class="chapterText">Personal projects</p>
+        </div>
+
+        <div class="chapterMarks" onclick="ShowProfessional()">
+            <p class="chapterText">Professional experience</p>
+        </div>
+
+        <div class="chapterMarks" onclick="ShowIdentity()">
+            <p class="chapterText">Who am I ?</p>
+        </div>
+    </div>
+
     <p class="pageTitle">Portfolio - Sylvain Rocland</p>
+    <img class="bookIcon" src="/icons/book.png" alt="CloseTheBook" onclick="ReturnToCover()">
     <img class="languageIcon" src="/icons/france.png" alt="Passer en français" onclick="ChangeLanguage('FR')">
 
     <div class="floatBody">
