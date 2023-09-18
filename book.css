@@ -227,6 +227,7 @@ a:active {
     width: 50%;
     margin: 0%;
     margin-left: 25%;
+    margin-bottom: 15%;
     display: flex;
     flex-wrap: wrap;
 }
