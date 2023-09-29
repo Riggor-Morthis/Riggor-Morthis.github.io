@@ -1,16 +1,11 @@
 @font-face {
-    font-family: mainTitles;
+    font-family: headers;
     src: url(/fonts/ROLNER.otf) format("opentype");
 }
 
 @font-face {
-    font-family: subTitles;
-    src: url(/fonts/ROLNER.otf) format("opentype");
-}
-
-@font-face {
-    font-family: mainBody;
-    src: url(/fonts/FuturaLight.otf) format("opentype");
+    font-family: body;
+    src: url(/fonts/DidactGothic-Regular.ttf);
 }
 
 body {
@@ -27,7 +22,7 @@ a {
     margin-left: 3%;
     margin-bottom: auto;
     margin-top: auto;
-    font-family: mainBody;
+    font-family: body;
     font-size: 1.3em;
     text-decoration: underline;
 }
@@ -106,7 +101,7 @@ a:active {
     margin-right: auto;
     text-align: center;
     color: rgb(15, 0, 0);
-    font-family: mainTitles;
+    font-family: headers;
     font-size: 5em;
 }
 
@@ -119,7 +114,7 @@ a:active {
     text-align: center;
     color: rgb(240, 190, 40);
     -webkit-text-stroke: 3px #965f0a;
-    font-family: mainTitles;
+    font-family: headers;
     font-size: 6.5em;
 }
 
@@ -144,7 +139,7 @@ a:active {
     text-align: center;
     color: rgb(15, 0, 0);
     width: 75%;
-    font-family: mainTitles;
+    font-family: headers;
     font-size: 2.5em;
     text-align: center;
     vertical-align: middle;
@@ -218,7 +213,7 @@ a:active {
     text-align: right;
     color: rgb(15, 0, 0);
     width: 75%;
-    font-family: mainTitles;
+    font-family: headers;
     font-size: 1.25em;
 }
 
@@ -256,7 +251,7 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     color: rgb(0, 0, 100);
-    font-family: subTitles;
+    font-family: headers;
     font-size: 1.7em;
     text-decoration: underline;
     margin-top: 5%;
@@ -274,7 +269,7 @@ a:active {
     text-align: justify;
     padding: .1%;
     color: rgb(15, 0, 0);
-    font-family: mainBody;
+    font-family: body;
     font-size: 1.1em;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -286,7 +281,7 @@ a:active {
     padding-left: 1%;
     padding-right: 1%;
     color: rgb(15, 0, 0);
-    font-family: mainBody;
+    font-family: body;
     font-size: 1.3em;
     margin-top: 1%;
     margin-bottom: 1%;
